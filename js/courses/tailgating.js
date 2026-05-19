@@ -4,7 +4,7 @@ window.JANET_COURSES.tailgating = {
   emoji: "🚪",
   duration: 4,
   karma: 40,
-  title: { en: "Tailgating", fr: "Talonnage" },
+  title: { en: "Tailgating", fr: "Tailgating" },
   description: {
     en: "The hack that doesn't need a computer at all.",
     fr: "L'attaque qui n'a même pas besoin d'un ordinateur."
@@ -35,7 +35,7 @@ window.JANET_COURSES.tailgating = {
     },
     what: {
       bot: [
-        { en: "*Tailgating* is when someone follows you through a secured door — and you let them in without realizing.", fr: "Le *talonnage*, c'est quand quelqu'un te suit à travers une porte sécurisée — et tu le laisses entrer sans t'en rendre compte." },
+        { en: "*Tailgating* is when someone follows you through a secured door — and you let them in without realizing.", fr: "Le *tailgating*, c'est quand quelqu'un te suit à travers une porte sécurisée — et tu le laisses entrer sans t'en rendre compte." },
         { en: "No hacking. No phishing. Just a smile and a coffee cup in their hand.", fr: "Pas de piratage. Pas de phishing. Juste un sourire et un café à la main." }
       ],
       next: "scene"
@@ -65,7 +65,7 @@ window.JANET_COURSES.tailgating = {
     },
     research: {
       bot: [
-        { en: "How does a tailgater know what to wear, who to mention, when to show up?", fr: "Comment un talonneur sait quoi porter, qui mentionner, quand venir ?" },
+        { en: "How does a tailgater know what to wear, who to mention, when to show up?", fr: "Comment un tailgater sait comment s'habiller, qui mentionner, quand venir ?" },
         { en: "Same way as spear phishers: by reading your company's LinkedIn, your team's Twitter, the news. \"Hi, I have a 2pm with Marie in Engineering.\"", fr: "Comme les phishers ciblés : en lisant le LinkedIn de ta boîte, le Twitter de l'équipe, l'actu. \"Bonjour, j'ai un rdv 14h avec Marie de l'ingénierie.\"" }
       ],
       next: "tips"
@@ -73,7 +73,7 @@ window.JANET_COURSES.tailgating = {
     tips: {
       bot: [
         { en: "Defenses don't require kung fu:", fr: "La défense ne demande pas de kung-fu :" },
-        { en: "🪪 *Badge in solo.* If someone tailgates, point them politely at reception.", fr: "🪪 *Badge seul·e.* Si on te talonne, oriente la personne vers l'accueil, gentiment." },
+        { en: "🪪 *Badge in solo.* If someone tailgates, point them politely at reception.", fr: "🪪 *Badge seul·e.* Si quelqu'un te suit en tailgating, oriente la personne vers l'accueil, gentiment." },
         { en: "👀 *Notice strangers.* If you don't know them, it's okay to ask who they're visiting.", fr: "👀 *Repère les inconnus.* Si tu ne les connais pas, c'est OK de demander qui ils viennent voir." },
         { en: "🔌 *Don't plug in random USB sticks.* The classic test: drop branded USBs in a parking lot, see how many end up plugged into work laptops. (Spoiler: a lot.)", fr: "🔌 *Ne branche pas une clé USB inconnue.* Test classique : on en sème dans le parking pour voir combien finissent dans les portables pros. (Indice : beaucoup.)" }
       ],
