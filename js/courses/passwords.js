@@ -110,7 +110,7 @@ window.JANET_COURSES.passwords = {
     },
     outro: {
       bot: [
-        { en: "Tiny recap: *long*, *unique*, kept inside a *password manager*. That is, factually, the whole game.", fr: "Petit récap : *long*, *unique*, rangé dans un *gestionnaire*. C'est, factuellement, tout le jeu." },
+        { en: "Tiny recap: *long*, *unique*, kept inside a *password manager*. That is, factually, the whole game.", fr: "Petit récap : *long*, *unique*, rangé dans un *gestionnaire*. Voilà toute l'astuce, factuellement." },
         { en: "You're doing wonderfully. Janet is proud of you. Bye for now! 💖", fr: "Tu te débrouilles à merveille. Janet est fière de toi. À très vite ! 💖" }
       ],
       end: true

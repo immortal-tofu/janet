@@ -13,7 +13,7 @@ window.JANET_COURSES.linkedin_footprint = {
   nodes: {
     start: {
       bot: [
-        { en: "Hi there! Janet here, with what is — per my classifications — the most paradoxical social network ever invented.", fr: "Salut ! C'est Janet, avec — selon mes classifications — le réseau social le plus paradoxal jamais inventé." },
+        { en: "Hi there! Janet here, with what is — per my classifications — the most paradoxical social network ever invented.", fr: "Salut ! C'est Janet, avec — selon mes classifications — le réseau social le plus paradoxal jamais conçu." },
         { en: "LinkedIn. Simultaneously the most useful and the most dangerous one.", fr: "LinkedIn. À la fois le plus utile et le plus dangereux." },
         { en: "Useful, because it finds you jobs. Dangerous, because it's a public CV with your manager's name printed on it.", fr: "Utile, parce qu'il te trouve des jobs. Dangereux, parce que c'est un CV public avec le nom de ta cheffe imprimé dessus." }
       ],
@@ -46,8 +46,8 @@ window.JANET_COURSES.linkedin_footprint = {
         { en: "Tips that don't hurt your career:", fr: "Conseils sans nuire à ta carrière :" },
         { en: "🔒 *Hide your connections list* (Settings → Visibility). Scammers love this list for impersonation.", fr: "🔒 *Cache ta liste de relations* (Paramètres → Visibilité). Les arnaqueurs adorent cette liste pour l'usurpation." },
         { en: "📧 *Don't list your work email* on the profile.", fr: "📧 *N'affiche pas ton email pro* sur ton profil." },
-        { en: "✋ *Be picky with connection requests.* No mutuals + brand-new account = decline.", fr: "✋ *Tri tes demandes de contact.* Aucun lien commun + compte tout neuf = refuse." },
-        { en: "📷 *Reverse-image-search a stranger's photo* before connecting. Stock photo = scam.", fr: "📷 *Recherche inversée d'image* avant d'accepter un inconnu. Photo de banque d'images = arnaque." }
+        { en: "✋ *Be picky with connection requests.* No mutuals + brand-new account = decline.", fr: "✋ *Trie tes demandes de contact.* Aucun lien commun + compte tout neuf = refuse." },
+        { en: "📷 *Reverse-image-search a stranger's photo* before connecting. Stock photo = scam.", fr: "📷 *Fais une recherche d'image inversée* avant d'accepter un inconnu. Photo issue d'une banque d'images = arnaque." }
       ],
       next: "test"
     },
@@ -77,7 +77,7 @@ window.JANET_COURSES.linkedin_footprint = {
     outro: {
       bot: [
         { en: "LinkedIn is genuinely useful. Just remember: every detail you share builds a more convincing impersonation of you. Or your boss.", fr: "LinkedIn est franchement utile. Souviens-toi juste : chaque détail partagé alimente une imitation plus crédible de toi. Ou de ta cheffe." },
-        { en: "Janet recommends: be helpful, be findable, but maybe a little mysterious. Bye for now! 💼", fr: "Janet recommande : sois utile, restable trouvable, mais reste un poil mystérieux·se. À très vite ! 💼" }
+        { en: "Janet recommends: be helpful, be findable, but maybe a little mysterious. Bye for now! 💼", fr: "Janet recommande : sois utile, reste trouvable, mais garde une part de mystère. À très vite ! 💼" }
       ],
       end: true
     }

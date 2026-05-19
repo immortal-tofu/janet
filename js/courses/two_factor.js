@@ -37,7 +37,7 @@ window.JANET_COURSES.two_factor = {
     },
     fact_blink: {
       bot: [
-        { en: "(Tiny aside: the average human blinks about *14,400 times a day*. Janet finds that an impressive amount of involuntary maintenance.)", fr: "(Petite parenthèse : un humain cligne des yeux environ *14 400 fois par jour*. Janet trouve ça beaucoup d'entretien involontaire.)" },
+        { en: "(Tiny aside: the average human blinks about *14,400 times a day*. Janet finds that an impressive amount of involuntary maintenance.)", fr: "(Petite parenthèse : un humain cligne des yeux environ *14 400 fois par jour*. Janet trouve ça impressionnant pour un geste involontaire.)" },
         { en: "Anyway! Two-factor auth.", fr: "Bref ! L'authentification à deux facteurs." }
       ],
       next: "advice"

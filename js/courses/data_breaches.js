@@ -48,7 +48,7 @@ window.JANET_COURSES.data_breaches = {
         { en: "Three moves:", fr: "Trois actions :" },
         { en: "1. Change the password on that account — and on any other account where you reused it.", fr: "1. Change le mot de passe de ce compte — et de tous les comptes où tu l'as réutilisé." },
         { en: "2. Turn on 2FA wherever you can.", fr: "2. Active la 2FA partout où c'est possible." },
-        { en: "3. Be extra suspicious of emails or texts mentioning the leaked service for the next few months.", fr: "3. Sois extra méfiant·e des emails ou SMS mentionnant le service piraté pendant quelques mois." }
+        { en: "3. Be extra suspicious of emails or texts mentioning the leaked service for the next few months.", fr: "3. Méfie-toi tout particulièrement des emails ou SMS qui mentionnent le service piraté, pendant quelques mois." }
       ],
       next: "outro"
     },
