@@ -26,7 +26,7 @@ window.JANET_I18N = {
   },
   fr: {
     "home.title": "Salut ! Moi c'est Janet.",
-    "home.subtitle": "Choisis un cours, ami·e. Chacun ne prend que quelques minutes — et c'est sans devoirs.",
+    "home.subtitle": "Choisis un cours quand tu veux. Chacun ne prend que quelques minutes — et pas de devoirs, promis.",
     "course.duration": "{n} min",
     "course.karma": "+{n} ✨",
     "course.start": "Commencer",
