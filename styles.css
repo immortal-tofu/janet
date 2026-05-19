@@ -161,6 +161,12 @@ a {
   padding: 24px 20px 96px;
 }
 
+/* When the view holds a chat, drop the big bottom buffer so the
+   fixed-height chat card fits the viewport cleanly. */
+.view:has(.chat) {
+  padding-bottom: 24px;
+}
+
 .hero {
   text-align: center;
   padding: 24px 8px 28px;
@@ -360,7 +366,10 @@ a {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow);
   overflow: hidden;
-  min-height: calc(100vh - 110px);
+  /* Fixed height anchored to the viewport, so .messages scrolls
+     internally rather than the whole page growing. */
+  height: calc(100vh - 112px);
+  height: calc(100dvh - 112px);
 }
 
 .chat-header {
