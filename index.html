@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Janet — Security Crash Course</title>
+    <meta name="description" content="Learn the security basics through short interactive chats with Janet." />
+    <meta name="theme-color" content="#f6e0d2" />
+    <link rel="icon" href="janet.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/" aria-label="Home">
+        <span class="brand-avatar" aria-hidden="true">J</span>
+        <span class="brand-name">Janet</span>
+      </a>
+      <div class="topbar-right">
+        <div class="karma" title="Karma points">
+          <span aria-hidden="true">✨</span>
+          <span id="karma-count">0</span>
+        </div>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button data-lang="en" type="button">EN</button>
+          <button data-lang="fr" type="button">FR</button>
+        </div>
+        <button id="reset-btn" type="button" class="reset" title="Reset progress">⟲</button>
+      </div>
+    </header>
+
+    <main id="view" class="view"></main>
+
+    <template id="tpl-home">
+      <section class="home">
+        <div class="hero">
+          <div class="hero-avatar" aria-hidden="true">J</div>
+          <h1 data-i18n="home.title">Hi there! I'm Janet.</h1>
+          <p data-i18n="home.subtitle">Pick a course, friend. Each one is just a few minutes — and I promise no homework.</p>
+          <a class="hero-link" href="#/about" data-i18n="home.aboutLink">Who is Janet?</a>
+        </div>
+        <div id="course-grid" class="course-grid"></div>
+      </section>
+    </template>
+
+    <template id="tpl-about">
+      <section class="about">
+        <div class="about-topbar">
+          <button class="back-btn" type="button" data-action="back" aria-label="Back">←</button>
+        </div>
+        <div class="about-avatar" aria-hidden="true"></div>
+        <h1 data-i18n="about.title">Who is Janet?</h1>
+        <p data-i18n="about.p1"></p>
+        <p data-i18n="about.p2"></p>
+        <p data-i18n="about.p3"></p>
+        <p class="about-footnote" data-i18n="about.p4"></p>
+      </section>
+    </template>
+
+    <template id="tpl-course">
+      <section class="chat">
+        <div class="chat-header">
+          <button class="back-btn" type="button" aria-label="Back" data-action="back">←</button>
+          <div class="chat-title">
+            <div class="chat-avatar" aria-hidden="true"></div>
+            <div class="chat-name">
+              <span id="chat-name">Janet</span>
+              <span class="chat-status">
+                <span id="chat-emoji" class="chat-emoji">✨</span>
+                <span id="chat-status-text">online</span>
+              </span>
+            </div>
+          </div>
+          <div class="chat-spacer"></div>
+        </div>
+        <div id="messages" class="messages" role="log" aria-live="polite"></div>
+        <div id="choices" class="choices"></div>
+      </section>
+    </template>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/courses/index.js"></script>
+    <script src="js/courses/company_documents.js"></script>
+    <script src="js/courses/passwords.js"></script>
+    <script src="js/courses/two_factor.js"></script>
+    <script src="js/courses/phishing.js"></script>
+    <script src="js/courses/spear_phishing.js"></script>
+    <script src="js/courses/ceo_fraud.js"></script>
+    <script src="js/courses/malware.js"></script>
+    <script src="js/courses/data_breaches.js"></script>
+    <script src="js/courses/personal_data.js"></script>
+    <script src="js/courses/smishing.js"></script>
+    <script src="js/courses/ransomware.js"></script>
+    <script src="js/courses/digital_footprint.js"></script>
+    <script src="js/courses/linkedin_footprint.js"></script>
+    <script src="js/courses/tailgating.js"></script>
+    <script src="js/courses/mobile_phone.js"></script>
+    <script src="js/courses/on_vacation.js"></script>
+    <script src="js/courses/software_vulnerabilities.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
