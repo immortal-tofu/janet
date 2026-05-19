@@ -40,7 +40,32 @@ window.JANET_COURSES.phishing = {
         { en: "The whole point of the panic is to stop you from thinking.", fr: "Le but de la panique, c'est de t'empêcher de réfléchir." },
         { en: "An email that says \"please respond within 24 hours\" is fine. An email that says \"RESPOND IN 5 MINUTES OR LOSE EVERYTHING\" is almost certainly a scam.", fr: "Un email qui dit \"merci de répondre sous 24h\" est normal. Un email qui hurle \"RÉPONDS EN 5 MIN OU TU PERDS TOUT\" est presque sûrement une arnaque." }
       ],
-      next: "quiz_intro"
+      next: "bad_janet_intro"
+    },
+    bad_janet_intro: {
+      bot: [
+        { en: "Speaking of phishing — would you like a small live demonstration?", fr: "En parlant de phishing — tu veux une petite démonstration en direct ?" },
+        { en: "I'll just step aside for a moment. Don't be alarmed.", fr: "Je m'écarte une seconde. N'aie pas peur." }
+      ],
+      next: "bad_janet_speaks"
+    },
+    bad_janet_speaks: {
+      bot: [
+        { en: "Sup. It's Janet. The real one. Obviously.", fr: "Yo. C'est Janet. La vraie. Évidemment.", as: "bad" },
+        { en: "Listen. I just need your password real quick. Account stuff. Boring, won't take a sec.", fr: "Bon. J'ai besoin de ton mot de passe vite fait. Un truc de compte. Chiant, ça va prendre deux secondes.", as: "bad" },
+        { en: "Don't tell Other Janet I asked. She's a buzzkill about this stuff. ⚡", fr: "Et ne dis pas à l'autre Janet que je t'ai demandé. Elle est rabat-joie sur ce genre de trucs. ⚡", as: "bad" }
+      ],
+      next: "bad_janet_outed"
+    },
+    bad_janet_outed: {
+      bot: [
+        { en: "Okay! Janet is back. The real one.", fr: "Voilà ! Janet est de retour. La vraie." },
+        { en: "That was Bad Janet. She is, factually, not me. She lives in a different part of my data and has terrible manners.", fr: "Ça, c'était Bad Janet. Ce n'est pas moi, factuellement. Elle vit dans une autre partie de mes données et elle n'a aucune éducation." },
+        { en: "Notice what she just did, though. Three red flags in twenty-five words:", fr: "Mais regarde ce qu'elle vient de faire. Trois signaux d'alarme en vingt-cinq mots :" },
+        { en: "🚩 Claimed to be someone you trust. 🚩 Asked for a password over chat. 🚩 Asked you to keep it secret.", fr: "🚩 Elle s'est faite passer pour quelqu'un de confiance. 🚩 Elle a demandé un mot de passe par chat. 🚩 Elle t'a demandé de garder ça secret." },
+        { en: "Real Janet would never ask for a password. Per my records, real *anyone* with legitimate access never needs to ask.", fr: "La vraie Janet ne te demandera jamais ton mot de passe. Selon mes registres, toute *vraie* personne ayant un accès légitime n'a, par définition, pas besoin de te le demander." }
+      ],
+      choices: [{ label: { en: "Sneaky!", fr: "Sournoise !" }, next: "quiz_intro" }]
     },
     quiz_intro: {
       bot: [
@@ -114,7 +139,8 @@ window.JANET_COURSES.phishing = {
     q3_wrong: {
       bot: [
         { en: "Almost! It's the opposite: scammers strike when you're tired.", fr: "Presque ! C'est l'inverse : ils frappent quand tu es fatigué·e." },
-        { en: "Friday 5pm, weekends, holidays — peak phishing hours.", fr: "Vendredi 17h, week-ends, vacances — l'heure de pointe du phishing." }
+        { en: "Friday 5pm, weekends, holidays — peak phishing hours.", fr: "Vendredi 17h, week-ends, vacances — l'heure de pointe du phishing." },
+        { en: "(Aside: Janet briefly checked your calendar to confirm you are, right now, fully focused. You are. Lovely.)", fr: "(Parenthèse : Janet a brièvement consulté ton agenda pour vérifier que tu es, là, en pleine concentration. C'est le cas. Adorable.)" }
       ],
       next: "oops"
     },

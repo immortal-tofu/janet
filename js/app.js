@@ -144,14 +144,23 @@
     window.addEventListener("hashchange", cleanup);
 
     function addBubble(kind, text, opts) {
+      const as = opts && opts.as;
       const row = document.createElement("div");
-      row.className = "bubble-row " + kind;
+      row.className = "bubble-row " + kind + (as ? " " + as : "");
       const avatar = document.createElement("div");
       avatar.className = "bubble-avatar";
-      avatar.textContent = kind === "user" ? "•" : "";
-      // Hide avatar if previous row was same kind (chat-grouping)
+      if (kind === "user") avatar.textContent = "•";
+      else if (as === "bad") avatar.textContent = "B";
+      else avatar.textContent = "";
+      // Hide avatar if previous row was the same kind+as (chat-grouping)
       const prev = messagesEl.lastElementChild;
-      if (prev && prev.classList.contains("bubble-row") && prev.classList.contains(kind) && kind !== "system") {
+      const sameGroup =
+        prev &&
+        prev.classList.contains("bubble-row") &&
+        prev.classList.contains(kind) &&
+        (as ? prev.classList.contains(as) : !prev.classList.contains("bad")) &&
+        kind !== "system";
+      if (sameGroup) {
         prev.querySelector(".bubble-avatar")?.classList.add("hidden");
       }
       const b = document.createElement("div");
@@ -165,14 +174,20 @@
       return b;
     }
 
-    function addTyping() {
+    function addTyping(as) {
       const row = document.createElement("div");
-      row.className = "bubble-row bot";
+      row.className = "bubble-row bot" + (as ? " " + as : "");
       const avatar = document.createElement("div");
       avatar.className = "bubble-avatar";
-      avatar.textContent = "";
+      if (as === "bad") avatar.textContent = "B";
+      else avatar.textContent = "";
       const prev = messagesEl.lastElementChild;
-      if (prev && prev.classList.contains("bubble-row") && prev.classList.contains("bot")) {
+      const sameGroup =
+        prev &&
+        prev.classList.contains("bubble-row") &&
+        prev.classList.contains("bot") &&
+        (as ? prev.classList.contains(as) : !prev.classList.contains("bad"));
+      if (sameGroup) {
         prev.querySelector(".bubble-avatar")?.classList.add("hidden");
         avatar.classList.add("hidden");
       }
@@ -184,6 +199,42 @@
       messagesEl.appendChild(row);
       scrollToEnd();
       return row;
+    }
+
+    function addSystemBubble(text) {
+      const row = document.createElement("div");
+      row.className = "bubble-row system";
+      const b = document.createElement("div");
+      b.className = "bubble";
+      b.innerHTML = formatText(text);
+      row.appendChild(b);
+      messagesEl.appendChild(row);
+      scrollToEnd();
+    }
+
+    function playChime() {
+      try {
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if (!Ctx) return;
+        const ctx = new Ctx();
+        const t0 = ctx.currentTime;
+        // Two-note ding (E5 then G5), soft sine, ~0.5s total
+        [659.25, 783.99].forEach((freq, i) => {
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = "sine";
+          osc.frequency.value = freq;
+          osc.connect(gain).connect(ctx.destination);
+          const start = t0 + i * 0.09;
+          gain.gain.setValueAtTime(0, start);
+          gain.gain.linearRampToValueAtTime(0.1, start + 0.02);
+          gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.55);
+          osc.start(start);
+          osc.stop(start + 0.6);
+        });
+      } catch (_) {
+        /* audio not available — silent fallback */
+      }
     }
 
     function scrollToEnd() {
@@ -208,14 +259,22 @@
       return Math.min(1600, Math.max(500, Math.round(text.length * 30)));
     }
 
-    async function showBotLine(text) {
+    async function showBotLine(text, as) {
       if (cancelled) return;
-      const typing = addTyping();
+      const typing = addTyping(as);
       await sleep(typingTime(text));
       if (cancelled) return;
       typing.remove();
-      addBubble("bot", text);
+      addBubble("bot", text, { as });
       await sleep(readingTime(text));
+    }
+
+    // A bot entry can be a plain { en, fr } object or { en, fr, as: "bad" }.
+    function normalizeBot(item) {
+      if (!item) return null;
+      const text = pick(item);
+      if (!text) return null;
+      return { text, as: item.as || null };
     }
 
     function clearChoices() {
@@ -266,9 +325,9 @@
       state.progress[course.id].currentNode = nodeId;
       saveState();
 
-      const lines = (node.bot || []).map(pick).filter(Boolean);
+      const lines = (node.bot || []).map(normalizeBot).filter(Boolean);
       for (const line of lines) {
-        await showBotLine(line);
+        await showBotLine(line.text, line.as);
         if (cancelled) return;
       }
       if (node.end) {
@@ -325,6 +384,12 @@
       choicesEl.appendChild(back);
       choicesEl.appendChild(replay);
     }
+
+    // Summon ritual: a tiny chime + an italic "Janet appears" system line,
+    // before the first real bubble lands. Replays don't re-summon — only the
+    // first walk in this view does.
+    playChime();
+    addSystemBubble(t("chat.summon"));
 
     // Kick off
     walkTo(course.startNode || "start");

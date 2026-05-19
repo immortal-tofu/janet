@@ -33,7 +33,14 @@ window.JANET_COURSES.two_factor = {
         { en: "🪄 *Authenticator app* — an app like Authy, 1Password or Google Authenticator generates a 6-digit code every 30 seconds. Much better.", fr: "🪄 *Application d'authentification* — Authy, 1Password ou Google Authenticator génèrent un code à 6 chiffres toutes les 30 secondes. Bien mieux." },
         { en: "🔑 *Hardware key* — a tiny USB stick (like a YubiKey). You touch it, you're in. Strongest by far.", fr: "🔑 *Clé physique* — une petite clé USB (comme une YubiKey). Tu la touches, c'est validé. Le top du top." }
       ],
-      choices: [{ label: { en: "Which should I use?", fr: "Laquelle choisir ?" }, next: "advice" }]
+      choices: [{ label: { en: "Which should I use?", fr: "Laquelle choisir ?" }, next: "fact_blink" }]
+    },
+    fact_blink: {
+      bot: [
+        { en: "(Tiny aside: the average human blinks about *14,400 times a day*. Janet finds that an impressive amount of involuntary maintenance.)", fr: "(Petite parenthèse : un humain cligne des yeux environ *14 400 fois par jour*. Janet trouve ça beaucoup d'entretien involontaire.)" },
+        { en: "Anyway! Two-factor auth.", fr: "Bref ! L'authentification à deux facteurs." }
+      ],
+      next: "advice"
     },
     advice: {
       bot: [

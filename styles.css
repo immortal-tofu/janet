@@ -510,6 +510,40 @@ a {
   border-top-left-radius: 6px;
 }
 
+/* Bad Janet: dark, no portrait, slightly attitudey */
+.bubble-row.bot.bad .bubble-avatar {
+  background-image: none;
+  background-color: #1f1c24;
+  color: #ff7aa2;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.bubble-row.bot.bad .bubble {
+  background: linear-gradient(135deg, #2d2935, #1a1820);
+  color: #ffe6ec;
+  border-top-left-radius: 6px;
+}
+
+.bubble-row.bot.bad .bubble strong {
+  color: #ff7aa2;
+}
+
+.bubble-row.bot.bad .bubble code {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffd6df;
+}
+
+.bubble.typing.bad,
+.bubble-row.bot.bad .bubble.typing {
+  background: #1f1c24;
+}
+
+.bubble-row.bot.bad .bubble.typing span {
+  background: #ff7aa2;
+}
+
 .bubble-row.user .bubble {
   background: linear-gradient(135deg, #cfe1f7, #b9d2f3);
   color: #14305a;
@@ -524,6 +558,13 @@ a {
   text-align: center;
   margin: 8px auto;
   border-radius: 14px;
+  animation: summon 0.55s ease-out;
+}
+
+@keyframes summon {
+  0% { opacity: 0; transform: scale(0.6); filter: blur(4px); }
+  60% { opacity: 1; transform: scale(1.05); filter: blur(0); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
 }
 
 .bubble-row.system {

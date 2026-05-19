@@ -57,7 +57,14 @@ window.JANET_COURSES.passwords = {
         { en: "👉 *Length beats complexity.* Aim for 12+ characters, ideally more.", fr: "👉 *La longueur, c'est plus fort que la complexité.* Vise au moins 12 caractères, idéalement plus." },
         { en: "A long, weird sentence is much harder to crack than `P@ssw0rd!`.", fr: "Une longue phrase bizarre est beaucoup plus dure à casser que `P@ssw0rd!`." }
       ],
-      choices: [{ label: { en: "Long it is", fr: "Long, donc" }, next: "rule_unique" }]
+      choices: [{ label: { en: "Long it is", fr: "Long, donc" }, next: "fact_ants" }]
+    },
+    fact_ants: {
+      bot: [
+        { en: "(Tiny aside, completely unrelated: there are, at this exact moment, roughly *20 quadrillion ants* alive on Earth. Per my records. Janet finds that staggering.)", fr: "(Petite parenthèse sans aucun rapport : il y a, à cet instant précis, environ *20 quadrillions de fourmis* en vie sur Terre. Selon mes registres. Janet trouve ça vertigineux.)" },
+        { en: "Anyway! Back to passwords.", fr: "Bref ! Retour aux mots de passe." }
+      ],
+      next: "rule_unique"
     },
     rule_unique: {
       bot: [

@@ -57,7 +57,8 @@ window.JANET_COURSES.smishing = {
     },
     test_good: {
       bot: [
-        { en: "✅ Perfect. The \"new number / broken phone / urgent money\" trio is one of the most common scams in the world.", fr: "✅ Parfait. Le trio \"nouveau numéro / téléphone cassé / argent urgent\" est l'une des arnaques les plus répandues au monde." }
+        { en: "✅ Perfect. The \"new number / broken phone / urgent money\" trio is one of the most common scams in the world.", fr: "✅ Parfait. Le trio \"nouveau numéro / téléphone cassé / argent urgent\" est l'une des arnaques les plus répandues au monde." },
+        { en: "You just \"turned the tables\" on them — which Janet researched and confirmed does not, in fact, involve actual furniture.", fr: "Tu viens de \"renvoyer l'ascenseur\" à l'arnaqueur — ce qui, Janet a vérifié, ne nécessite pas réellement d'ascenseur." }
       ],
       next: "report"
     },

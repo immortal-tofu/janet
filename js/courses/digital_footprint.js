@@ -42,6 +42,13 @@ window.JANET_COURSES.digital_footprint = {
         { en: "🕵️ Strangers (employers, dates, the curious) build a story of you in five clicks.", fr: "🕵️ Des inconnus (recruteurs, dates, curieux) bâtissent une image de toi en cinq clics." },
         { en: "🏚️ Some of it is wildly out of date or wrong — and represents you anyway.", fr: "🏚️ Certaines infos sont obsolètes ou fausses — et te représentent quand même." }
       ],
+      next: "fact_sun"
+    },
+    fact_sun: {
+      bot: [
+        { en: "(Tiny aside, totally unrelated: light from the Sun takes about *8 minutes and 20 seconds* to reach Earth. So the sunlight on your face right now is, technically, slightly out of date.)", fr: "(Petite parenthèse sans rapport : la lumière du Soleil met environ *8 minutes et 20 secondes* à arriver jusqu'à toi. Donc le rayon sur ton visage en ce moment est, techniquement, légèrement périmé.)" },
+        { en: "Anyway! Back to your data.", fr: "Bref ! Retour à tes données." }
+      ],
       next: "actions"
     },
     actions: {

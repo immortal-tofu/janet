@@ -102,7 +102,8 @@ window.JANET_COURSES.ceo_fraud = {
         { en: "📞 Got a weird text from your son? *Call his old number.*", fr: "📞 SMS bizarre de ton fils ? *Appelle son ancien numéro.*" },
         { en: "📞 Got a weird email from your boss? *Call her desk or message her on the usual app.*", fr: "📞 Email bizarre de ta cheffe ? *Appelle son poste, ou écris-lui sur l'appli habituelle.*" },
         { en: "📞 Got a panicked voice call from \"family\"? *Hang up and call them back yourself.*", fr: "📞 Appel paniqué d'un membre de la \"famille\" ? *Raccroche et rappelle-les toi-même.*" },
-        { en: "Set up a *family safeword* with the people you love. If a panicked \"daughter\" can't say the word, it isn't her.", fr: "Mets en place un *mot de passe familial* avec tes proches. Si une \"fille\" en panique n'arrive pas à le donner, ce n'est pas elle." }
+        { en: "Set up a *family safeword* with the people you love. If a panicked \"daughter\" can't say the word, it isn't her.", fr: "Mets en place un *mot de passe familial* avec tes proches. Si une \"fille\" en panique n'arrive pas à le donner, ce n'est pas elle." },
+        { en: "Janet suggests something easy to say and hard to guess. Like \"aubergine,\" or \"pickle,\" or the name of your second-favorite cousin.", fr: "Janet suggère quelque chose de facile à dire et difficile à deviner. Comme \"aubergine\", ou \"cornichon\", ou le prénom de ton·ta deuxième cousin·e préféré·e." }
       ],
       choices: [{ label: { en: "Setting up a safeword tonight", fr: "Je prépare un mot de passe ce soir" }, next: "outro" }]
     },

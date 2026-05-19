@@ -16,7 +16,13 @@ window.JANET_COURSES.software_vulnerabilities = {
         { en: "Hi there! Janet here, with a topic that I find, against all odds, kind of romantic.", fr: "Salut ! C'est Janet, avec un sujet que je trouve, contre toute attente, un peu romantique." },
         { en: "Let's talk about *those* notifications. The ones that say \"Update available\" — the ones you have reflexively dismissed approximately 12 times.", fr: "Parlons de *ces* notifications. Celles qui disent \"Mise à jour disponible\" — celles que tu as réflexivement balayées environ 12 fois." }
       ],
-      choices: [{ label: { en: "Guilty 🙋", fr: "Coupable 🙋" }, next: "why" }]
+      choices: [{ label: { en: "Guilty 🙋", fr: "Coupable 🙋" }, next: "literal_check" }]
+    },
+    literal_check: {
+      bot: [
+        { en: "(Janet checked her records: you have not, in fact, been arrested. \"Guilty\" is a feeling. Carrying on.)", fr: "(Janet a consulté ses registres : tu n'as, factuellement, pas été arrêté·e. \"Coupable\" est un sentiment. On continue.)" }
+      ],
+      next: "why"
     },
     why: {
       bot: [

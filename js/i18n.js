@@ -17,11 +17,12 @@ window.JANET_I18N = {
     "system.startOver": "Start over",
     "home.aboutLink": "Who is Janet?",
     "about.title": "Who is Janet?",
-    "about.p1": "Janet is a character from the NBC sitcom The Good Place, created by Michael Schur and aired from 2016 to 2020. She is played by D'Arcy Carden.",
-    "about.p2": "In the show, Janet is an artificial being — a cheerful, all-knowing assistant who helps the residents of a peculiar afterlife neighborhood. She is famously kind, charmingly literal, and very, very informed.",
-    "about.p3": "Why borrow her for a security site? Because she makes information feel friendly. Janet would absolutely walk you through two-factor authentication without judging your old passwords.",
+    "about.p1": "Janet is a character from the NBC sitcom The Good Place, created by Michael Schur and broadcast from 2016 to 2020. She is played by D'Arcy Carden, whose performance earned an Emmy nomination and a Critics' Choice Television Award nod.",
+    "about.p2": "In the universe of the show, Janet is an artificial being — a kind of cheerful walking encyclopedia who runs a peculiar afterlife neighborhood like a perpetually patient concierge. She can summon any object on request and answer any question with a smile, and a running joke clarifies that she is, technically, neither a girl nor a robot. Across the four seasons she outgrows her original programming, develops emotions, and becomes one of the show's most beloved characters.",
+    "about.p3": "Several Janets coexist on the show — the default cheerful one, a sarcastic Bad Janet, a robotically impartial Neutral Janet, and a glittery Disco Janet — all played by Carden. The default Janet is the one we borrow here, because she makes information feel friendly. (Bad Janet makes one tiny cameo in the phishing course, just for science.)",
     "about.p4": "This site is an unofficial fan tribute, made for friends and family. The Good Place, its characters, dialogue and trademarks belong to their respective rights holders.",
-    "about.back": "Back"
+    "about.back": "Back",
+    "chat.summon": "*Janet appears with a soft ding.* ✨"
   },
   fr: {
     "home.title": "Salut ! Moi c'est Janet.",
@@ -40,10 +41,11 @@ window.JANET_I18N = {
     "system.startOver": "Recommencer",
     "home.aboutLink": "Qui est Janet ?",
     "about.title": "Qui est Janet ?",
-    "about.p1": "Janet est un personnage de la sitcom américaine The Good Place, créée par Michael Schur et diffusée entre 2016 et 2020. Elle est incarnée par l'actrice D'Arcy Carden.",
-    "about.p2": "Dans la série, Janet est une entité artificielle — une assistante omnisciente, toujours joyeuse, qui aide les habitants d'un curieux quartier de l'au-delà. Elle est connue pour sa gentillesse, son interprétation un peu littérale des choses, et son savoir encyclopédique.",
-    "about.p3": "Pourquoi l'emprunter pour un site de sécurité ? Parce qu'elle rend l'information sympathique. Janet t'expliquerait l'authentification à deux facteurs sans jamais juger tes vieux mots de passe.",
+    "about.p1": "Janet est un personnage de la sitcom américaine The Good Place, créée par Michael Schur et diffusée entre 2016 et 2020. Elle est incarnée par D'Arcy Carden, dont l'interprétation lui a valu une nomination aux Emmy Awards et aux Critics' Choice Television Awards.",
+    "about.p2": "Dans l'univers de la série, Janet est une entité artificielle — une sorte d'encyclopédie ambulante toujours joyeuse, qui veille sur un curieux quartier de l'au-delà comme une concierge éternellement patiente. Elle peut faire apparaître n'importe quel objet à la demande et répondre à n'importe quelle question avec le sourire, et un running gag rappelle qu'elle n'est, techniquement, ni une fille, ni un robot. Au fil des quatre saisons, elle dépasse sa programmation initiale, développe des émotions, et devient l'un des personnages les plus appréciés du public.",
+    "about.p3": "Plusieurs Janets coexistent dans la série — la version joyeuse par défaut, une Bad Janet sarcastique, une Neutral Janet robotiquement impartiale, et une Disco Janet pailletée — toutes incarnées par Carden. On emprunte ici la Janet par défaut, parce qu'elle rend l'information sympathique. (Bad Janet fait une seule petite apparition, dans le cours sur le phishing, pour la science.)",
     "about.p4": "Ce site est un hommage de fan non officiel, fait pour des proches. The Good Place, ses personnages, ses dialogues et ses marques appartiennent à leurs ayants droit respectifs.",
-    "about.back": "Retour"
+    "about.back": "Retour",
+    "chat.summon": "*Janet apparaît dans un petit ding.* ✨"
   }
 };
