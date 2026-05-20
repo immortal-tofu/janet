@@ -15,6 +15,7 @@ window.JANET_COURSE_ORDER = [
   "ransomware",
   "digital_footprint",
   "linkedin_footprint",
+  "ai_slop",
   "tailgating",
   "mobile_phone",
   "on_vacation",
