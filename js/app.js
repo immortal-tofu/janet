@@ -268,9 +268,48 @@
       await sleep(readingTime(text));
     }
 
-    // A bot entry can be a plain { en, fr } object or { en, fr, as: "bad" }.
+    async function showBotImage(src, alt) {
+      if (cancelled) return;
+      const typing = addTyping();
+      await sleep(900);
+      if (cancelled) return;
+      typing.remove();
+      addImageBubble(src, alt);
+      await sleep(1100);
+    }
+
+    function addImageBubble(src, alt) {
+      const row = document.createElement("div");
+      row.className = "bubble-row bot";
+      const avatar = document.createElement("div");
+      avatar.className = "bubble-avatar";
+      const prev = messagesEl.lastElementChild;
+      if (prev && prev.classList.contains("bubble-row") && prev.classList.contains("bot") && !prev.classList.contains("bad")) {
+        prev.querySelector(".bubble-avatar")?.classList.add("hidden");
+      }
+      const b = document.createElement("div");
+      b.className = "bubble image";
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = alt || "";
+      img.loading = "lazy";
+      img.addEventListener("load", scrollToEnd);
+      b.appendChild(img);
+      row.appendChild(avatar);
+      row.appendChild(b);
+      messagesEl.appendChild(row);
+      scrollToEnd();
+    }
+
+    // A bot entry can be:
+    //   { en, fr, ... }           — plain text
+    //   { en, fr, as: "bad" }     — styled variant (Bad Janet)
+    //   { image, alt }            — an image bubble, alt is a { en, fr, ... } object
     function normalizeBot(item) {
       if (!item) return null;
+      if (item.image) {
+        return { image: item.image, alt: pick(item.alt || {}) || "" };
+      }
       const text = pick(item);
       if (!text) return null;
       return { text, as: item.as || null };
@@ -326,7 +365,11 @@
 
       const lines = (node.bot || []).map(normalizeBot).filter(Boolean);
       for (const line of lines) {
-        await showBotLine(line.text, line.as);
+        if (line.image) {
+          await showBotImage(line.image, line.alt);
+        } else {
+          await showBotLine(line.text, line.as);
+        }
         if (cancelled) return;
       }
       if (node.end) {

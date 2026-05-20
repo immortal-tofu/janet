@@ -521,6 +521,21 @@ a {
   border-top-left-radius: 6px;
 }
 
+/* Image bubbles: tighter padding, wider, image fills the bubble */
+.bubble.image {
+  padding: 4px;
+  max-width: min(86%, 480px);
+}
+
+.bubble.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 460px;
+  object-fit: contain;
+  border-radius: 14px;
+}
+
 /* Bad Janet: dark, no portrait, slightly attitudey */
 .bubble-row.bot.bad .bubble-avatar {
   background-image: none;
