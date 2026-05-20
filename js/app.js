@@ -245,17 +245,17 @@
     }
 
     function typingTime(text) {
-      // Pacing tuned for comfortable reading.
-      // Roughly: 60ms per character, clamped to a 700ms..2600ms window.
-      const t = Math.min(2600, Math.max(700, Math.round(text.length * 60)));
+      // Pacing tuned for comfortable reading, slightly brisker than before.
+      // Roughly: 45ms per character, clamped to a 500ms..1900ms window.
+      const t = Math.min(1900, Math.max(500, Math.round(text.length * 45)));
       return t;
     }
 
     function readingTime(text) {
       // Pause AFTER a message lands, so the reader can absorb it before
       // the typing indicator for the next one appears.
-      // ~30ms per char, clamped to a 500ms..1600ms window.
-      return Math.min(1600, Math.max(500, Math.round(text.length * 30)));
+      // ~22ms per char, clamped to a 350ms..1100ms window.
+      return Math.min(1100, Math.max(350, Math.round(text.length * 22)));
     }
 
     async function showBotLine(text, as) {
