@@ -167,5 +167,29 @@ window.JANET_I18N = {
     "about.p4": "Този сайт е неофициален фен-почит, направен за приятели и семейство. The Good Place, неговите герои, диалози и търговски марки принадлежат на съответните им притежатели на права.",
     "about.back": "Назад",
     "chat.summon": "*Janet се появява с тих звън.* ✨"
+  },
+  tr: {
+    "home.title": "Merhaba! Ben Janet.",
+    "home.subtitle": "İstediğin zaman bir ders seç. Her biri yalnızca birkaç dakika sürer — ve ödev yok, söz.",
+    "course.duration": "{n} dk",
+    "course.karma": "+{n} ✨",
+    "course.start": "Başla",
+    "course.resume": "Devam et",
+    "course.replay": "Tekrar oyna",
+    "end.title": "Ders tamamlandı!",
+    "end.karma": "{n} ✨ karma kazandın.",
+    "end.back": "Derslere dön",
+    "reset.confirm": "Tüm ilerlemeyi ve karmayı sıfırla?",
+    "system.completed": "Ders tamamlandı",
+    "system.alreadyDone": "Bunu zaten yaptın — hafızanı tazelemekten çekinme.",
+    "system.startOver": "Baştan başla",
+    "home.aboutLink": "Janet kim?",
+    "about.title": "Janet kim?",
+    "about.p1": "Janet, NBC sitcom dizisi The Good Place'in (2016–2020) bir karakteri. Dizi Michael Schur tarafından yaratıldı ve Janet'i D'Arcy Carden canlandırıyor.",
+    "about.p2": "Dizide Janet, kendine özgü bir öbür dünya mahallesini yöneten yapay bir varlık — neşeli, sonsuz yardımsever, nazikçe literal ve insanın sosyal kodlarına biraz uzak. Tekrar eden bir şaka, onun teknik olarak ne bir kız ne de bir robot olduğunu — bambaşka bir şey olduğunu — vurgular.",
+    "about.p3": "Onu burada ödünç alıyoruz çünkü bilgiyi dostça hissettiriyor. Alaycı karşılığı Bad Janet de phishing dersinde kısacık bir kamera karşısına çıkıyor — bilim adına.",
+    "about.p4": "Bu site, dostlar ve aile için yapılmış resmi olmayan bir hayran ithafıdır. The Good Place, karakterleri, diyalogları ve markaları ilgili hak sahiplerine aittir.",
+    "about.back": "Geri",
+    "chat.summon": "*Janet yumuşak bir ding sesiyle belirir.* ✨"
   }
 };

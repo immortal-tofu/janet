@@ -227,6 +227,37 @@ a {
   margin-top: 8px;
 }
 
+/* Home footer with GitHub + X links */
+.home-footer {
+  margin-top: 40px;
+  padding: 22px 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  font-family: var(--font-mono);
+}
+
+.home-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.home-footer a:hover {
+  color: var(--coral);
+}
+
+.home-footer .icon {
+  flex-shrink: 0;
+}
+
 /* About page */
 .about {
   position: relative;
@@ -660,34 +691,32 @@ a {
 }
 
 .choice {
-  padding: 9px 14px;
-  background: white;
-  color: var(--teal);
-  border: 1.5px solid var(--mint);
+  padding: 10px 18px;
+  background: var(--peach);
+  color: white;
+  border: none;
   border-radius: 999px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
-  transition: background 0.15s ease, transform 0.1s ease;
+  letter-spacing: 0.1px;
+  box-shadow: 0 2px 0 rgba(124, 58, 0, 0.08), 0 6px 16px rgba(232, 158, 126, 0.32);
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
 }
 
 .choice:hover {
-  background: var(--mint);
-  color: #186a5e;
+  background: var(--peach-deep);
+  box-shadow: 0 2px 0 rgba(124, 58, 0, 0.12), 0 8px 22px rgba(232, 158, 126, 0.45);
 }
 
 .choice:active {
   transform: scale(0.97);
+  box-shadow: 0 1px 0 rgba(124, 58, 0, 0.08), 0 3px 8px rgba(232, 158, 126, 0.3);
 }
 
+/* `.choice.primary` is kept as an alias of `.choice` so existing markup
+   keeps working — no separate visual treatment. */
 .choice.primary {
   background: var(--peach);
-  border-color: var(--peach);
-  color: white;
-}
-
-.choice.primary:hover {
-  background: var(--peach-deep);
-  border-color: var(--peach-deep);
   color: white;
 }
 

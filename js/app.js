@@ -324,7 +324,7 @@
       choices.forEach((c, i) => {
         const btn = document.createElement("button");
         btn.type = "button";
-        btn.className = "choice" + (i === 0 ? " primary" : "");
+        btn.className = "choice";
         btn.textContent = pick(c.label);
         btn.addEventListener(
           "click",
