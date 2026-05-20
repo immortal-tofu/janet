@@ -26,167 +26,167 @@ window.JANET_COURSES.phishing = {
   nodes: {
     start: {
       bot: [
-        { en: "Hi there! Janet here.", fr: "Salut ! C'est Janet." },
-        { en: "Today's topic is the *most popular* hacking method in the entire universe. According to my data, and I have a lot of data.", fr: "Le sujet du jour, c'est la méthode de piratage la *plus populaire* de tout l'univers. Selon mes données. Et j'en ai beaucoup." },
-        { en: "It's called phishing. Pronounced exactly like fishing, because the concept is identical: dangle bait, wait for a bite.", fr: "On appelle ça le phishing. Ça se prononce comme \"fishing\", parce que le concept est identique : on lance un appât, on attend que ça morde." }
+        { en: "Hi there! Janet here.", fr: "Salut ! C'est Janet.", es: "¡Hola! Soy Janet.", de: "Hallo! Janet hier.", it: "Ciao! Sono Janet.", da: "Hej! Det er Janet.", bg: "Здравей! Аз съм Janet." },
+        { en: "Today's topic is the *most popular* hacking method in the entire universe. According to my data, and I have a lot of data.", fr: "Le sujet du jour, c'est la méthode de piratage la *plus populaire* de tout l'univers. Selon mes données. Et j'en ai beaucoup.", es: "El tema de hoy es el método de hackeo *más popular* de todo el universo. Según mis datos, y tengo muchos datos.", de: "Das Thema heute ist die *beliebteste* Hacking-Methode im gesamten Universum. Laut meinen Daten, und ich habe viele Daten.", it: "L'argomento di oggi è il metodo di hacking *più popolare* di tutto l'universo. Secondo i miei dati, e ne ho moltissimi.", da: "Dagens emne er den *mest udbredte* hackingmetode i hele universet. Ifølge mine data, og jeg har en masse data.", bg: "Темата днес е *най-популярният* метод за хакване в цялата вселена. Според моите данни, а имам много данни." },
+        { en: "It's called phishing. Pronounced exactly like fishing, because the concept is identical: dangle bait, wait for a bite.", fr: "On appelle ça le phishing. Ça se prononce comme \"fishing\", parce que le concept est identique : on lance un appât, on attend que ça morde.", es: "Se llama phishing. Se pronuncia igual que \"fishing\" (pescar), porque el concepto es idéntico: pones un cebo y esperas a que piquen.", de: "Es heißt Phishing. Ausgesprochen genau wie \"fishing\", denn das Prinzip ist identisch: Köder auswerfen und auf einen Biss warten.", it: "Si chiama phishing. Si pronuncia esattamente come \"fishing\", perché il concetto è identico: getti un'esca e aspetti che abbocchino.", da: "Det hedder phishing. Udtales præcis som \"fishing\", for konceptet er det samme: smid madding ud, vent på et bid.", bg: "Нарича се phishing. Произнася се точно като \"fishing\" (риболов), защото концепцията е същата: пускаш стръв, чакаш да клъвне." }
       ],
-      choices: [{ label: { en: "Ooh, tell me more", fr: "Ooh, raconte" }, next: "stat" }]
+      choices: [{ label: { en: "Ooh, tell me more", fr: "Ooh, raconte", es: "Ooh, cuéntame más", de: "Ooh, erzähl mehr", it: "Ooh, raccontami di più", da: "Ooh, fortæl mere", bg: "Ооо, разкажи ми още" }, next: "stat" }]
     },
     stat: {
       bot: [
-        { en: "Roughly *9 out of 10* cyberattacks start with a phishing email.", fr: "Environ *9 cyberattaques sur 10* commencent par un email de phishing." },
-        { en: "Not malware. Not zero-days. Not Hollywood typing. Just a friendly-looking email.", fr: "Pas du malware. Pas du zero-day. Pas du tapotage hollywoodien. Juste un email qui a l'air sympa." }
+        { en: "Roughly *9 out of 10* cyberattacks start with a phishing email.", fr: "Environ *9 cyberattaques sur 10* commencent par un email de phishing.", es: "Aproximadamente *9 de cada 10* ciberataques empiezan con un correo de phishing.", de: "Etwa *9 von 10* Cyberangriffen beginnen mit einer Phishing-Mail.", it: "Circa *9 attacchi informatici su 10* iniziano con un'email di phishing.", da: "Cirka *9 ud af 10* cyberangreb starter med en phishing-mail.", bg: "Около *9 от 10* кибератаки започват с phishing имейл." },
+        { en: "Not malware. Not zero-days. Not Hollywood typing. Just a friendly-looking email.", fr: "Pas du malware. Pas du zero-day. Pas du tapotage hollywoodien. Juste un email qui a l'air sympa.", es: "Ni malware. Ni zero-days. Ni tecleo hollywoodiense. Solo un correo de aspecto amable.", de: "Keine Malware. Keine Zero-Days. Kein Hollywood-Getippe. Nur eine freundlich aussehende E-Mail.", it: "Niente malware. Niente zero-day. Niente tastiere alla Hollywood. Solo un'email dall'aria simpatica.", da: "Ikke malware. Ikke zero-days. Ikke Hollywood-tastetrykkeri. Bare en venlig udseende e-mail.", bg: "Не малуер. Не zero-days. Не холивудско тракане по клавиатурата. Просто един имейл, който изглежда дружелюбно." }
       ],
       next: "anatomy"
     },
     anatomy: {
       bot: [
-        { en: "Phishing has three ingredients. Let's break it down.", fr: "Le phishing a trois ingrédients. Décortiquons." },
-        { en: "1️⃣ *Someone you trust.* The email looks like it's from your bank, your delivery service, your boss, your mom.", fr: "1️⃣ *Quelqu'un en qui tu as confiance.* L'email a l'air de venir de ta banque, du livreur, de ton patron, de ta maman." },
-        { en: "2️⃣ *A reason to panic.* \"Your account will be closed!\" \"Confirm now!\" \"Unusual login!\"", fr: "2️⃣ *Une raison de paniquer.* \"Ton compte va être fermé !\" \"Confirme tout de suite !\" \"Connexion suspecte !\"" },
-        { en: "3️⃣ *One urgent click.* A button. A link. A login form. A fake one.", fr: "3️⃣ *Un clic urgent.* Un bouton. Un lien. Un faux formulaire de connexion." }
+        { en: "Phishing has three ingredients. Let's break it down.", fr: "Le phishing a trois ingrédients. Décortiquons.", es: "El phishing tiene tres ingredientes. Vamos a desglosarlos.", de: "Phishing hat drei Zutaten. Lass uns das aufdröseln.", it: "Il phishing ha tre ingredienti. Scomponiamoli.", da: "Phishing har tre ingredienser. Lad os bryde det ned.", bg: "Phishing има три съставки. Да ги разглобим." },
+        { en: "1️⃣ *Someone you trust.* The email looks like it's from your bank, your delivery service, your boss, your mom.", fr: "1️⃣ *Quelqu'un en qui tu as confiance.* L'email a l'air de venir de ta banque, du livreur, de ton patron, de ta maman.", es: "1️⃣ *Alguien en quien confías.* El correo parece venir de tu banco, del servicio de mensajería, de tu jefe, de tu madre.", de: "1️⃣ *Jemand, dem du vertraust.* Die E-Mail sieht aus, als käme sie von deiner Bank, vom Paketdienst, deinem Chef, deiner Mutter.", it: "1️⃣ *Qualcuno di cui ti fidi.* L'email sembra arrivare dalla tua banca, dal corriere, dal tuo capo, da tua madre.", da: "1️⃣ *En du stoler på.* E-mailen ser ud, som om den kommer fra din bank, fragtfirmaet, din chef, din mor.", bg: "1️⃣ *Някой, на когото имаш доверие.* Имейлът изглежда сякаш идва от банката ти, от куриерската фирма, от шефа ти, от мама ти." },
+        { en: "2️⃣ *A reason to panic.* \"Your account will be closed!\" \"Confirm now!\" \"Unusual login!\"", fr: "2️⃣ *Une raison de paniquer.* \"Ton compte va être fermé !\" \"Confirme tout de suite !\" \"Connexion suspecte !\"", es: "2️⃣ *Una razón para entrar en pánico.* \"¡Tu cuenta será cerrada!\" \"¡Confirma ahora!\" \"¡Inicio de sesión inusual!\"", de: "2️⃣ *Ein Grund zur Panik.* \"Dein Konto wird geschlossen!\" \"Jetzt bestätigen!\" \"Ungewöhnliche Anmeldung!\"", it: "2️⃣ *Un motivo per andare nel panico.* \"Il tuo account sarà chiuso!\" \"Conferma subito!\" \"Accesso insolito!\"", da: "2️⃣ *En grund til at gå i panik.* \"Din konto bliver lukket!\" \"Bekræft nu!\" \"Usædvanligt login!\"", bg: "2️⃣ *Причина за паника.* \"Акаунтът ти ще бъде затворен!\" \"Потвърди веднага!\" \"Необичайно влизане!\"" },
+        { en: "3️⃣ *One urgent click.* A button. A link. A login form. A fake one.", fr: "3️⃣ *Un clic urgent.* Un bouton. Un lien. Un faux formulaire de connexion.", es: "3️⃣ *Un clic urgente.* Un botón. Un enlace. Un formulario de inicio de sesión. Falso.", de: "3️⃣ *Ein dringender Klick.* Ein Knopf. Ein Link. Ein Login-Formular. Ein gefälschtes.", it: "3️⃣ *Un clic urgente.* Un pulsante. Un link. Un modulo di login. Falso.", da: "3️⃣ *Ét hastende klik.* En knap. Et link. En login-formular. En falsk en.", bg: "3️⃣ *Един спешен клик.* Бутон. Линк. Форма за вход. Фалшива." }
       ],
-      choices: [{ label: { en: "Classic recipe", fr: "Recette classique" }, next: "trick" }]
+      choices: [{ label: { en: "Classic recipe", fr: "Recette classique", es: "Receta clásica", de: "Klassisches Rezept", it: "Ricetta classica", da: "Klassisk opskrift", bg: "Класическа рецепта" }, next: "trick" }]
     },
     trick: {
       bot: [
-        { en: "The whole point of the panic is to stop you from thinking.", fr: "Le but de la panique, c'est de t'empêcher de réfléchir." },
-        { en: "An email that says \"please respond within 24 hours\" is fine. An email that says \"RESPOND IN 5 MINUTES OR LOSE EVERYTHING\" is almost certainly a scam.", fr: "Un email qui dit \"merci de répondre sous 24h\" est normal. Un email qui hurle \"RÉPONDS EN 5 MIN OU TU PERDS TOUT\" est presque sûrement une arnaque." }
+        { en: "The whole point of the panic is to stop you from thinking.", fr: "Le but de la panique, c'est de t'empêcher de réfléchir.", es: "El propósito del pánico es impedir que pienses.", de: "Der ganze Sinn der Panik ist, dich am Denken zu hindern.", it: "L'intero scopo del panico è impedirti di ragionare.", da: "Hele formålet med panikken er at forhindre dig i at tænke.", bg: "Целият смисъл на паниката е да те спре да мислиш." },
+        { en: "An email that says \"please respond within 24 hours\" is fine. An email that says \"RESPOND IN 5 MINUTES OR LOSE EVERYTHING\" is almost certainly a scam.", fr: "Un email qui dit \"merci de répondre sous 24h\" est normal. Un email qui hurle \"RÉPONDS EN 5 MIN OU TU PERDS TOUT\" est presque sûrement une arnaque.", es: "Un correo que dice \"por favor, responde en 24 horas\" está bien. Un correo que grita \"RESPONDE EN 5 MINUTOS O LO PIERDES TODO\" es casi seguro una estafa.", de: "Eine E-Mail mit \"bitte innerhalb von 24 Stunden antworten\" ist okay. Eine E-Mail mit \"ANTWORTE IN 5 MINUTEN ODER VERLIERE ALLES\" ist mit fast hundertprozentiger Sicherheit Betrug.", it: "Un'email che dice \"per favore rispondi entro 24 ore\" va bene. Un'email che urla \"RISPONDI ENTRO 5 MINUTI O PERDI TUTTO\" è quasi sicuramente una truffa.", da: "En e-mail med \"svar venligst inden 24 timer\" er fin. En e-mail med \"SVAR INDEN FOR 5 MINUTTER, ELLERS MISTER DU ALT\" er næsten helt sikkert et fupnummer.", bg: "Имейл, който казва \"моля, отговори в рамките на 24 часа\", е нормален. Имейл, който крещи \"ОТГОВОРИ В РАМКИТЕ НА 5 МИНУТИ ИЛИ ЩЕ ЗАГУБИШ ВСИЧКО\", почти със сигурност е измама." }
       ],
       next: "bad_janet_intro"
     },
     bad_janet_intro: {
       bot: [
-        { en: "Speaking of phishing — would you like a small live demonstration?", fr: "En parlant de phishing — tu veux une petite démonstration en direct ?" },
-        { en: "I'll just step aside for a moment. Don't be alarmed.", fr: "Je m'écarte une seconde. N'aie pas peur." }
+        { en: "Speaking of phishing — would you like a small live demonstration?", fr: "En parlant de phishing — tu veux une petite démonstration en direct ?", es: "Hablando de phishing — ¿te apetece una pequeña demostración en vivo?", de: "Apropos Phishing — möchtest du eine kleine Live-Demonstration?", it: "A proposito di phishing — ti va una piccola dimostrazione dal vivo?", da: "Apropos phishing — har du lyst til en lille live-demonstration?", bg: "Като говорим за phishing — искаш ли една малка демонстрация на живо?" },
+        { en: "I'll just step aside for a moment. Don't be alarmed.", fr: "Je m'écarte une seconde. N'aie pas peur.", es: "Me aparto un momento. No te asustes.", de: "Ich trete kurz zur Seite. Keine Sorge.", it: "Mi sposto un attimo. Non ti preoccupare.", da: "Jeg træder lige til side et øjeblik. Bliv ikke forskrækket.", bg: "Само ще се отдръпна за момент. Не се притеснявай." }
       ],
       next: "bad_janet_speaks"
     },
     bad_janet_speaks: {
       bot: [
-        { en: "Sup. It's Janet. The real one. Obviously.", fr: "Yo. C'est Janet. La vraie. Évidemment.", as: "bad" },
-        { en: "Listen. I just need your password real quick. Account stuff. Boring, won't take a sec.", fr: "Bon. J'ai besoin de ton mot de passe vite fait. Un truc de compte. Chiant, ça va prendre deux secondes.", as: "bad" },
-        { en: "Don't tell Other Janet I asked. She's a buzzkill about this stuff. ⚡", fr: "Et ne dis pas à l'autre Janet que je t'ai demandé. Elle est rabat-joie sur ce genre de trucs. ⚡", as: "bad" }
+        { en: "Sup. It's Janet. The real one. Obviously.", fr: "Yo. C'est Janet. La vraie. Évidemment.", es: "Qué pasa. Soy Janet. La de verdad. Obvio.", de: "Yo. Janet hier. Die echte. Logisch.", it: "Bella. Sono Janet. Quella vera. Ovvio.", da: "Yo. Det er Janet. Den ægte. Selvfølgelig.", bg: "Какво става. Аз съм Janet. Истинската. Очевидно.", as: "bad" },
+        { en: "Listen. I just need your password real quick. Account stuff. Boring, won't take a sec.", fr: "Bon. J'ai besoin de ton mot de passe vite fait. Un truc de compte. Chiant, ça va prendre deux secondes.", es: "Mira. Solo necesito tu contraseña rapidito. Cosas de cuenta. Aburrido, no tarda nada.", de: "Hör mal. Ich brauch nur kurz dein Passwort. Kontokram. Langweilig, dauert ne Sekunde.", it: "Senti. Mi serve solo la tua password al volo. Roba di account. Noia, ci vuole un attimo.", da: "Hør her. Jeg skal lige bruge dit kodeord hurtigt. Konto-noget. Kedeligt, tager ingen tid.", bg: "Слушай. Просто ми трябва паролата ти набързо. Неща за акаунта. Скучно, ще е за секунда.", as: "bad" },
+        { en: "Don't tell Other Janet I asked. She's a buzzkill about this stuff. ⚡", fr: "Et ne dis pas à l'autre Janet que je t'ai demandé. Elle est rabat-joie sur ce genre de trucs. ⚡", es: "No le digas a la otra Janet que te lo pedí. Es una aguafiestas con estas cosas. ⚡", de: "Erzähl der anderen Janet nicht, dass ich gefragt hab. Die ist bei dem Kram total spaßbefreit. ⚡", it: "Non dirlo all'altra Janet che te l'ho chiesto. Su queste cose è una guastafeste. ⚡", da: "Sig ikke til den anden Janet, at jeg spurgte. Hun er en lyseslukker, når det handler om den slags. ⚡", bg: "Не казвай на другата Janet, че те питах. Тя е досадница за такива неща. ⚡", as: "bad" }
       ],
       next: "bad_janet_outed"
     },
     bad_janet_outed: {
       bot: [
-        { en: "Okay! Janet is back. The real one.", fr: "Voilà ! Janet est de retour. La vraie." },
-        { en: "That was Bad Janet. She is, factually, not me. She lives in a different part of my data and has terrible manners.", fr: "Ça, c'était Bad Janet. Ce n'est pas moi, factuellement. Elle vit dans une autre partie de mes données et elle n'a aucune éducation." },
-        { en: "Notice what she just did, though. Three red flags in twenty-five words:", fr: "Mais regarde ce qu'elle vient de faire. Trois signaux d'alarme en vingt-cinq mots :" },
-        { en: "🚩 Claimed to be someone you trust. 🚩 Asked for a password over chat. 🚩 Asked you to keep it secret.", fr: "🚩 Elle s'est faite passer pour quelqu'un de confiance. 🚩 Elle a demandé un mot de passe par chat. 🚩 Elle t'a demandé de garder ça secret." },
-        { en: "Real Janet would never ask for a password. Per my records, real *anyone* with legitimate access never needs to ask.", fr: "La vraie Janet ne te demandera jamais ton mot de passe. Selon mes registres, toute *vraie* personne ayant un accès légitime n'a, par définition, pas besoin de te le demander." }
+        { en: "Okay! Janet is back. The real one.", fr: "Voilà ! Janet est de retour. La vraie.", es: "¡Listo! Janet ha vuelto. La de verdad.", de: "Okay! Janet ist zurück. Die echte.", it: "Ecco! Janet è tornata. Quella vera.", da: "Okay! Janet er tilbage. Den ægte.", bg: "Така! Janet се върна. Истинската." },
+        { en: "That was Bad Janet. She is, factually, not me. She lives in a different part of my data and has terrible manners.", fr: "Ça, c'était Bad Janet. Ce n'est pas moi, factuellement. Elle vit dans une autre partie de mes données et elle n'a aucune éducation.", es: "Esa era Bad Janet. Ella no es yo, factualmente. Vive en otra parte de mis datos y tiene unos modales terribles.", de: "Das war Bad Janet. Sie ist, faktisch, nicht ich. Sie wohnt in einem anderen Teil meiner Daten und hat schreckliche Manieren.", it: "Quella era Bad Janet. Lei, fattualmente, non sono io. Vive in un'altra parte dei miei dati e ha pessime maniere.", da: "Det var Bad Janet. Hun er, faktuelt, ikke mig. Hun bor i en anden del af mine data og har frygtelige manerer.", bg: "Това беше Bad Janet. Тя, технически, не съм аз. Живее в друга част от моите данни и има ужасни маниери." },
+        { en: "Notice what she just did, though. Three red flags in twenty-five words:", fr: "Mais regarde ce qu'elle vient de faire. Trois signaux d'alarme en vingt-cinq mots :", es: "Pero fíjate en lo que acaba de hacer. Tres señales de alarma en veinticinco palabras:", de: "Aber schau dir an, was sie gerade gemacht hat. Drei Warnsignale in fünfundzwanzig Wörtern:", it: "Però guarda cosa ha appena fatto. Tre campanelli d'allarme in venticinque parole:", da: "Men se lige, hvad hun lige gjorde. Tre advarselslamper på femogtyve ord:", bg: "Но забележи какво току-що направи. Три червени флага за двайсет и пет думи:" },
+        { en: "🚩 Claimed to be someone you trust. 🚩 Asked for a password over chat. 🚩 Asked you to keep it secret.", fr: "🚩 Elle s'est faite passer pour quelqu'un de confiance. 🚩 Elle a demandé un mot de passe par chat. 🚩 Elle t'a demandé de garder ça secret.", es: "🚩 Se hizo pasar por alguien de confianza. 🚩 Pidió una contraseña por chat. 🚩 Te pidió que lo mantuvieras en secreto.", de: "🚩 Hat sich als jemand ausgegeben, dem du vertraust. 🚩 Hat per Chat nach einem Passwort gefragt. 🚩 Hat dich gebeten, es geheim zu halten.", it: "🚩 Si è spacciata per qualcuno di fidato. 🚩 Ha chiesto una password in chat. 🚩 Ti ha chiesto di tenerlo segreto.", da: "🚩 Udgav sig for at være en, du stoler på. 🚩 Bad om en adgangskode via chat. 🚩 Bad dig holde det hemmeligt.", bg: "🚩 Представи се за някой, на когото имаш доверие. 🚩 Поиска парола по чат. 🚩 Поиска да го запазиш в тайна." },
+        { en: "Real Janet would never ask for a password. Per my records, real *anyone* with legitimate access never needs to ask.", fr: "La vraie Janet ne te demandera jamais ton mot de passe. Selon mes registres, toute *vraie* personne ayant un accès légitime n'a, par définition, pas besoin de te le demander.", es: "La verdadera Janet nunca te pediría una contraseña. Según mis registros, *cualquiera* legítimo con acceso real no necesita pedirla.", de: "Die echte Janet würde nie nach einem Passwort fragen. Laut meinen Aufzeichnungen muss *niemand* mit legitimem Zugang jemals danach fragen.", it: "La vera Janet non chiederebbe mai una password. Secondo i miei archivi, qualunque *vera* persona con accesso legittimo non ha mai bisogno di chiederla.", da: "Den ægte Janet ville aldrig bede om en adgangskode. Ifølge mine optegnelser behøver *enhver* med ægte, legitim adgang aldrig at spørge.", bg: "Истинската Janet никога не би поискала парола. Според моите регистри, всеки *реален* човек с легитимен достъп никога няма нужда да я иска." }
       ],
-      choices: [{ label: { en: "Sneaky!", fr: "Sournoise !" }, next: "quiz_intro" }]
+      choices: [{ label: { en: "Sneaky!", fr: "Sournoise !", es: "¡Qué taimada!", de: "Hinterhältig!", it: "Subdola!", da: "Lusket!", bg: "Хитро!" }, next: "quiz_intro" }]
     },
     quiz_intro: {
       bot: [
-        { en: "Alright, mini-quiz! Don't worry, I grade on a very generous curve. (No curve. I just like you.)", fr: "Allez, mini-quiz ! Ne stresse pas, je note avec beaucoup d'indulgence. (Pas de note. Je t'aime bien, c'est tout.)" }
+        { en: "Alright, mini-quiz! Don't worry, I grade on a very generous curve. (No curve. I just like you.)", fr: "Allez, mini-quiz ! Ne stresse pas, je note avec beaucoup d'indulgence. (Pas de note. Je t'aime bien, c'est tout.)", es: "¡Vale, mini-quiz! Tranqui, califico con mucha indulgencia. (No hay calificación. Es que me caes bien.)", de: "Okay, Mini-Quiz! Keine Sorge, ich benote sehr großzügig. (Ich benote gar nicht. Ich mag dich einfach.)", it: "Bene, mini-quiz! Tranquillo, valuto in modo molto indulgente. (Niente voti. Mi sei semplicemente simpatico.)", da: "Okay, mini-quiz! Bare rolig, jeg bedømmer meget mildt. (Ingen bedømmelse. Jeg kan bare godt lide dig.)", bg: "Така, мини-куиз! Спокойно, оценявам много щедро. (Няма оценки. Просто те харесвам.)" }
       ],
       next: "q1"
     },
     q1: {
       bot: [
-        { en: "Question 1: An email from \"Netflix\" says your account will be canceled in *one hour*. The link goes to `netfllx-billing.com`. What do you do?", fr: "Question 1 : Un email \"Netflix\" t'annonce la fermeture de ton compte d'ici *une heure*. Le lien pointe vers `netfllx-billing.com`. Tu fais quoi ?" }
+        { en: "Question 1: An email from \"Netflix\" says your account will be canceled in *one hour*. The link goes to `netfllx-billing.com`. What do you do?", fr: "Question 1 : Un email \"Netflix\" t'annonce la fermeture de ton compte d'ici *une heure*. Le lien pointe vers `netfllx-billing.com`. Tu fais quoi ?", es: "Pregunta 1: Un correo de \"Netflix\" dice que tu cuenta se cancelará en *una hora*. El enlace lleva a `netfllx-billing.com`. ¿Qué haces?", de: "Frage 1: Eine E-Mail von \"Netflix\" sagt, dein Konto werde in *einer Stunde* gekündigt. Der Link führt zu `netfllx-billing.com`. Was machst du?", it: "Domanda 1: Un'email da \"Netflix\" dice che il tuo account verrà cancellato entro *un'ora*. Il link porta a `netfllx-billing.com`. Cosa fai?", da: "Spørgsmål 1: En e-mail fra \"Netflix\" siger, at din konto bliver lukket om *én time*. Linket fører til `netfllx-billing.com`. Hvad gør du?", bg: "Въпрос 1: Имейл от \"Netflix\" казва, че акаунтът ти ще бъде закрит след *един час*. Линкът води към `netfllx-billing.com`. Какво правиш?" }
       ],
       choices: [
-        { label: { en: "Click and check", fr: "Je clique pour voir" }, next: "q1_wrong" },
-        { label: { en: "Open Netflix's app myself", fr: "J'ouvre l'appli Netflix moi-même" }, next: "q1_right" },
-        { label: { en: "Reply asking for proof", fr: "Je réponds pour demander une preuve" }, next: "q1_wrong" }
+        { label: { en: "Click and check", fr: "Je clique pour voir", es: "Hago clic y compruebo", de: "Ich klicke und schaue nach", it: "Clicco e controllo", da: "Jeg klikker og tjekker", bg: "Кликвам и проверявам" }, next: "q1_wrong" },
+        { label: { en: "Open Netflix's app myself", fr: "J'ouvre l'appli Netflix moi-même", es: "Abro la app de Netflix por mi cuenta", de: "Ich öffne die Netflix-App selbst", it: "Apro l'app di Netflix da solo", da: "Jeg åbner selv Netflix-appen", bg: "Сам отварям приложението на Netflix" }, next: "q1_right" },
+        { label: { en: "Reply asking for proof", fr: "Je réponds pour demander une preuve", es: "Respondo pidiendo pruebas", de: "Ich antworte und verlange einen Beweis", it: "Rispondo chiedendo una prova", da: "Jeg svarer og beder om bevis", bg: "Отговарям, искайки доказателство" }, next: "q1_wrong" }
       ]
     },
     q1_right: {
       bot: [
-        { en: "✅ Yes! Go straight to the source, never through the email.", fr: "✅ Bravo ! Va directement à la source, jamais en passant par l'email." },
-        { en: "Also: *netfllx-billing.com* has two L's. Classic phishing trick.", fr: "Aussi : *netfllx-billing.com* a deux L. Astuce classique de phishing." }
+        { en: "✅ Yes! Go straight to the source, never through the email.", fr: "✅ Bravo ! Va directement à la source, jamais en passant par l'email.", es: "✅ ¡Sí! Ve directamente a la fuente, nunca a través del correo.", de: "✅ Ja! Geh direkt zur Quelle, niemals über die E-Mail.", it: "✅ Sì! Vai direttamente alla fonte, mai passando dall'email.", da: "✅ Ja! Gå lige til kilden, aldrig via e-mailen.", bg: "✅ Да! Отиди директно към източника, никога през имейла." },
+        { en: "Also: *netfllx-billing.com* has two L's. Classic phishing trick.", fr: "Aussi : *netfllx-billing.com* a deux L. Astuce classique de phishing.", es: "Además: *netfllx-billing.com* tiene dos eles. Truco clásico de phishing.", de: "Außerdem: *netfllx-billing.com* hat zwei L. Klassischer Phishing-Trick.", it: "Inoltre: *netfllx-billing.com* ha due L. Trucco classico del phishing.", da: "Desuden: *netfllx-billing.com* har to L'er. Klassisk phishing-trick.", bg: "Освен това: *netfllx-billing.com* има две L-та. Класически phishing трик." }
       ],
       next: "q2"
     },
     q1_wrong: {
       bot: [
-        { en: "Oof, that one would have hurt.", fr: "Aïe, celui-là aurait fait mal." },
-        { en: "The right move: ignore the link, open the Netflix app directly. If something's wrong, you'll see it there.", fr: "Le bon réflexe : ignorer le lien, ouvrir l'appli Netflix directement. S'il y a vraiment un problème, tu le verras dedans." }
+        { en: "Oof, that one would have hurt.", fr: "Aïe, celui-là aurait fait mal.", es: "Uf, ese habría dolido.", de: "Autsch, das hätte wehgetan.", it: "Ahia, quella sarebbe stata dolorosa.", da: "Uha, det ville have gjort ondt.", bg: "Олеле, това щеше да заболи." },
+        { en: "The right move: ignore the link, open the Netflix app directly. If something's wrong, you'll see it there.", fr: "Le bon réflexe : ignorer le lien, ouvrir l'appli Netflix directement. S'il y a vraiment un problème, tu le verras dedans.", es: "El movimiento correcto: ignora el enlace y abre la app de Netflix directamente. Si hay algún problema, lo verás allí.", de: "Der richtige Schritt: Link ignorieren, Netflix-App direkt öffnen. Wenn etwas nicht stimmt, siehst du es dort.", it: "La mossa giusta: ignora il link, apri direttamente l'app di Netflix. Se c'è qualcosa che non va, lo vedrai lì.", da: "Det rigtige træk: Ignorér linket, åbn Netflix-appen direkte. Hvis der er noget galt, vil du se det der.", bg: "Правилният ход: игнорирай линка, отвори приложението на Netflix директно. Ако нещо не е наред, ще го видиш там." }
       ],
       next: "q2"
     },
     q2: {
       bot: [
-        { en: "Question 2: True or false — if the sender address *looks* right, the email is safe.", fr: "Question 2 : Vrai ou faux — si l'adresse d'expéditeur a l'air correcte, l'email est sûr." }
+        { en: "Question 2: True or false — if the sender address *looks* right, the email is safe.", fr: "Question 2 : Vrai ou faux — si l'adresse d'expéditeur a l'air correcte, l'email est sûr.", es: "Pregunta 2: Verdadero o falso — si la dirección del remitente *parece* correcta, el correo es seguro.", de: "Frage 2: Wahr oder falsch — wenn die Absenderadresse richtig *aussieht*, ist die E-Mail sicher.", it: "Domanda 2: Vero o falso — se l'indirizzo del mittente *sembra* corretto, l'email è sicura.", da: "Spørgsmål 2: Sandt eller falsk — hvis afsenderadressen *ser* rigtig ud, er e-mailen sikker.", bg: "Въпрос 2: Вярно или невярно — ако адресът на изпращача *изглежда* правилен, имейлът е безопасен." }
       ],
       choices: [
-        { label: { en: "False", fr: "Faux" }, next: "q2_right" },
-        { label: { en: "True", fr: "Vrai" }, next: "q2_wrong" }
+        { label: { en: "False", fr: "Faux", es: "Falso", de: "Falsch", it: "Falso", da: "Falsk", bg: "Невярно" }, next: "q2_right" },
+        { label: { en: "True", fr: "Vrai", es: "Verdadero", de: "Wahr", it: "Vero", da: "Sandt", bg: "Вярно" }, next: "q2_wrong" }
       ]
     },
     q2_right: {
       bot: [
-        { en: "✅ False indeed. Sender addresses can be forged. It's called email spoofing.", fr: "✅ Faux en effet. Une adresse peut être falsifiée — c'est ce qu'on appelle le *spoofing*." },
-        { en: "A real-looking sender lowers your guard. Always check the *content* too: weird urgency, weird links, weird requests.", fr: "Un expéditeur crédible baisse ta garde. Vérifie aussi le *contenu* : urgence bizarre, liens bizarres, demandes bizarres." }
+        { en: "✅ False indeed. Sender addresses can be forged. It's called email spoofing.", fr: "✅ Faux en effet. Une adresse peut être falsifiée — c'est ce qu'on appelle le *spoofing*.", es: "✅ Falso, efectivamente. Las direcciones del remitente se pueden falsificar. Se llama email spoofing.", de: "✅ Falsch, in der Tat. Absenderadressen können gefälscht werden. Das nennt man Email-Spoofing.", it: "✅ Falso, in effetti. Gli indirizzi del mittente possono essere falsificati. Si chiama email spoofing.", da: "✅ Falsk, ja. Afsenderadresser kan forfalskes. Det kaldes email spoofing.", bg: "✅ Невярно, разбира се. Адресите на изпращача могат да бъдат фалшифицирани. Нарича се email spoofing." },
+        { en: "A real-looking sender lowers your guard. Always check the *content* too: weird urgency, weird links, weird requests.", fr: "Un expéditeur crédible baisse ta garde. Vérifie aussi le *contenu* : urgence bizarre, liens bizarres, demandes bizarres.", es: "Un remitente que parece real baja tu guardia. Comprueba siempre también el *contenido*: urgencia rara, enlaces raros, peticiones raras.", de: "Ein echt wirkender Absender senkt deine Wachsamkeit. Prüfe immer auch den *Inhalt*: komische Dringlichkeit, komische Links, komische Anfragen.", it: "Un mittente dall'aria credibile abbassa la tua guardia. Controlla sempre anche il *contenuto*: urgenza strana, link strani, richieste strane.", da: "En afsender, der ser ægte ud, sænker din paraply. Tjek altid også *indholdet*: mærkelig hastværk, mærkelige links, mærkelige anmodninger.", bg: "Изпращач, който изглежда истински, сваля бдителността ти. Винаги проверявай и *съдържанието*: странна спешност, странни линкове, странни молби." }
       ],
       next: "q3"
     },
     q2_wrong: {
       bot: [
-        { en: "Friendly correction: it's false! 🙃", fr: "Petite correction amicale : c'est faux ! 🙃" },
-        { en: "Sender addresses can be faked. Always check the content too, not just the \"From\" line.", fr: "Les adresses peuvent être falsifiées. Vérifie toujours le contenu aussi, pas seulement le champ \"De\"." }
+        { en: "Friendly correction: it's false! 🙃", fr: "Petite correction amicale : c'est faux ! 🙃", es: "Pequeña corrección amistosa: ¡es falso! 🙃", de: "Freundliche Korrektur: Es ist falsch! 🙃", it: "Piccola correzione amichevole: è falso! 🙃", da: "Venlig rettelse: det er falsk! 🙃", bg: "Приятелска корекция: невярно е! 🙃" },
+        { en: "Sender addresses can be faked. Always check the content too, not just the \"From\" line.", fr: "Les adresses peuvent être falsifiées. Vérifie toujours le contenu aussi, pas seulement le champ \"De\".", es: "Las direcciones del remitente se pueden falsificar. Comprueba siempre también el contenido, no solo la línea \"De\".", de: "Absenderadressen können gefälscht werden. Prüfe immer auch den Inhalt, nicht nur die \"Von\"-Zeile.", it: "Gli indirizzi del mittente possono essere falsificati. Controlla sempre anche il contenuto, non solo la riga \"Da\".", da: "Afsenderadresser kan forfalskes. Tjek altid også indholdet, ikke kun \"Fra\"-linjen.", bg: "Адресите на изпращача могат да бъдат подправени. Винаги проверявай и съдържанието, а не само реда \"От\"." }
       ],
       next: "q3"
     },
     q3: {
       bot: [
-        { en: "Question 3: When are you most likely to fall for a phishing email?", fr: "Question 3 : Quand es-tu le plus susceptible de tomber dans le piège ?" }
+        { en: "Question 3: When are you most likely to fall for a phishing email?", fr: "Question 3 : Quand es-tu le plus susceptible de tomber dans le piège ?", es: "Pregunta 3: ¿Cuándo es más probable que caigas en un correo de phishing?", de: "Frage 3: Wann fällst du am wahrscheinlichsten auf eine Phishing-Mail rein?", it: "Domanda 3: Quando è più probabile che ci caschi con un'email di phishing?", da: "Spørgsmål 3: Hvornår er du mest tilbøjelig til at hoppe på en phishing-mail?", bg: "Въпрос 3: Кога е най-вероятно да се хванеш на phishing имейл?" }
       ],
       choices: [
-        { label: { en: "Friday at 5pm or weekends", fr: "Vendredi 17h ou le week-end" }, next: "q3_right" },
-        { label: { en: "Monday at 9am, fully focused", fr: "Lundi 9h, en pleine forme" }, next: "q3_wrong" }
+        { label: { en: "Friday at 5pm or weekends", fr: "Vendredi 17h ou le week-end", es: "Viernes a las 17h o fines de semana", de: "Freitag um 17 Uhr oder am Wochenende", it: "Venerdì alle 17 o nel weekend", da: "Fredag kl. 17 eller i weekenden", bg: "Петък в 17 ч. или през уикенда" }, next: "q3_right" },
+        { label: { en: "Monday at 9am, fully focused", fr: "Lundi 9h, en pleine forme", es: "Lunes a las 9h, totalmente concentrado", de: "Montag um 9 Uhr, voll konzentriert", it: "Lunedì alle 9, in piena forma", da: "Mandag kl. 9, helt fokuseret", bg: "Понеделник в 9 ч., напълно концентриран" }, next: "q3_wrong" }
       ]
     },
     q3_right: {
       bot: [
-        { en: "✅ Exactly. Scammers love tired humans.", fr: "✅ Exactement. Les arnaqueurs adorent les humains fatigués." },
-        { en: "Weekends, late afternoons, holidays — that's their happy hunting ground.", fr: "Week-ends, fins d'après-midi, vacances — c'est leur terrain de chasse préféré." }
+        { en: "✅ Exactly. Scammers love tired humans.", fr: "✅ Exactement. Les arnaqueurs adorent les humains fatigués.", es: "✅ Exacto. A los estafadores les encantan los humanos cansados.", de: "✅ Genau. Betrüger lieben müde Menschen.", it: "✅ Esatto. I truffatori adorano gli umani stanchi.", da: "✅ Præcis. Svindlere elsker trætte mennesker.", bg: "✅ Точно така. Измамниците обичат уморените хора." },
+        { en: "Weekends, late afternoons, holidays — that's their happy hunting ground.", fr: "Week-ends, fins d'après-midi, vacances — c'est leur terrain de chasse préféré.", es: "Fines de semana, tardes, vacaciones — es su coto de caza favorito.", de: "Wochenenden, später Nachmittag, Feiertage — das ist ihr Lieblings-Jagdrevier.", it: "Weekend, tardo pomeriggio, vacanze — è il loro terreno di caccia preferito.", da: "Weekender, sen eftermiddag, ferier — det er deres bedste jagtmark.", bg: "Уикенди, късни следобеди, празници — това им е любимата ловна територия." }
       ],
       next: "oops"
     },
     q3_wrong: {
       bot: [
-        { en: "Almost! It's the opposite: scammers strike when you're tired.", fr: "Presque ! C'est l'inverse : ils frappent quand tu es fatigué·e." },
-        { en: "Friday 5pm, weekends, holidays — peak phishing hours.", fr: "Vendredi 17h, week-ends, vacances — l'heure de pointe du phishing." },
-        { en: "(Aside: Janet briefly checked your calendar to confirm you are, right now, fully focused. You are. Lovely.)", fr: "(Parenthèse : Janet a brièvement consulté ton agenda pour vérifier que tu es, là, en pleine concentration. C'est le cas. Adorable.)" }
+        { en: "Almost! It's the opposite: scammers strike when you're tired.", fr: "Presque ! C'est l'inverse : ils frappent quand tu es fatigué·e.", es: "¡Casi! Es lo contrario: los estafadores atacan cuando estás cansado.", de: "Fast! Es ist umgekehrt: Betrüger schlagen zu, wenn du müde bist.", it: "Quasi! È il contrario: i truffatori colpiscono quando sei stanco.", da: "Næsten! Det er omvendt: svindlere slår til, når du er træt.", bg: "Почти! Точно обратното е: измамниците удрят, когато си уморен." },
+        { en: "Friday 5pm, weekends, holidays — peak phishing hours.", fr: "Vendredi 17h, week-ends, vacances — l'heure de pointe du phishing.", es: "Viernes a las 17h, fines de semana, vacaciones — hora punta del phishing.", de: "Freitag 17 Uhr, Wochenenden, Feiertage — Phishing-Hauptzeit.", it: "Venerdì alle 17, weekend, vacanze — è l'ora di punta del phishing.", da: "Fredag kl. 17, weekender, ferier — phishing-myldretiden.", bg: "Петък 17 ч., уикенди, празници — пиковите часове за phishing." },
+        { en: "(Aside: Janet briefly checked your calendar to confirm you are, right now, fully focused. You are. Lovely.)", fr: "(Parenthèse : Janet a brièvement consulté ton agenda pour vérifier que tu es, là, en pleine concentration. C'est le cas. Adorable.)", es: "(Apunte: Janet ha echado un vistazo a tu calendario para confirmar que ahora mismo estás totalmente concentrado. Lo estás. Encantador.)", de: "(Nebenbei: Janet hat kurz deinen Kalender geprüft, um zu bestätigen, dass du gerade voll konzentriert bist. Bist du. Wunderbar.)", it: "(Per inciso: Janet ha dato una rapida occhiata al tuo calendario per confermare che, in questo momento, sei in piena concentrazione. Lo sei. Adorabile.)", da: "(Sidebemærkning: Janet tjekkede lige din kalender for at bekræfte, at du, lige nu, er fuldt fokuseret. Det er du. Dejligt.)", bg: "(Между другото: Janet провери набързо календара ти, за да потвърди, че точно сега си напълно концентриран. Така е. Прекрасно.)" }
       ],
       next: "oops"
     },
     oops: {
       bot: [
-        { en: "Last one — what if you already clicked something you shouldn't have?", fr: "Dernière question — et si tu as déjà cliqué sur ce qu'il ne fallait pas ?" }
+        { en: "Last one — what if you already clicked something you shouldn't have?", fr: "Dernière question — et si tu as déjà cliqué sur ce qu'il ne fallait pas ?", es: "La última — ¿y si ya has hecho clic en algo que no debías?", de: "Letzte Frage — was, wenn du schon auf etwas geklickt hast, was du nicht hättest sollen?", it: "Ultima — e se hai già cliccato su qualcosa che non avresti dovuto?", da: "Sidste — hvad hvis du allerede har klikket på noget, du ikke skulle have?", bg: "Последен — ами ако вече си кликнал на нещо, на което не е трябвало?" }
       ],
       choices: [
-        { label: { en: "Change my password immediately", fr: "Je change mon mot de passe immédiatement" }, next: "oops_right" },
-        { label: { en: "Hope for the best", fr: "Je croise les doigts" }, next: "oops_wrong" }
+        { label: { en: "Change my password immediately", fr: "Je change mon mot de passe immédiatement", es: "Cambio mi contraseña inmediatamente", de: "Ich ändere sofort mein Passwort", it: "Cambio subito la mia password", da: "Jeg skifter min adgangskode med det samme", bg: "Незабавно сменям паролата си" }, next: "oops_right" },
+        { label: { en: "Hope for the best", fr: "Je croise les doigts", es: "Cruzo los dedos", de: "Ich hoffe das Beste", it: "Incrocio le dita", da: "Jeg krydser fingre", bg: "Стискам палци" }, next: "oops_wrong" }
       ]
     },
     oops_right: {
       bot: [
-        { en: "✅ Yes! Speed matters.", fr: "✅ Oui ! La vitesse compte." },
-        { en: "Change the password of any account you entered into the fake site. Then enable 2FA. Then warn anyone who might be next.", fr: "Change le mot de passe de chaque compte concerné. Active la 2FA. Préviens qui pourrait être ciblé après toi." }
+        { en: "✅ Yes! Speed matters.", fr: "✅ Oui ! La vitesse compte.", es: "✅ ¡Sí! La velocidad importa.", de: "✅ Ja! Geschwindigkeit zählt.", it: "✅ Sì! La velocità conta.", da: "✅ Ja! Hastigheden er vigtig.", bg: "✅ Да! Скоростта има значение." },
+        { en: "Change the password of any account you entered into the fake site. Then enable 2FA. Then warn anyone who might be next.", fr: "Change le mot de passe de chaque compte concerné. Active la 2FA. Préviens qui pourrait être ciblé après toi.", es: "Cambia la contraseña de cualquier cuenta que hayas introducido en el sitio falso. Luego activa la 2FA. Después avisa a quien pueda ser el siguiente.", de: "Ändere das Passwort jedes Kontos, das du auf der Fake-Seite eingegeben hast. Dann aktiviere 2FA. Dann warne alle, die als Nächstes dran sein könnten.", it: "Cambia la password di ogni account che hai inserito sul sito falso. Poi attiva la 2FA. Poi avvisa chi potrebbe essere il prossimo.", da: "Skift adgangskoden på alle de konti, du har indtastet på den falske side. Slå derefter 2FA til. Advar så enhver, der kunne være den næste.", bg: "Смени паролата на всеки акаунт, който си въвел на фалшивия сайт. После включи 2FA. После предупреди всеки, който може да е следващият." }
       ],
       next: "outro"
     },
     oops_wrong: {
       bot: [
-        { en: "Hope is lovely but slow. Change your password *first*, then sip your tea.", fr: "L'espoir, c'est mignon mais lent. Change ton mot de passe *d'abord*, ensuite tu bois ton thé." },
-        { en: "Then turn on 2FA so it's much harder next time.", fr: "Active ensuite la 2FA pour que ce soit bien plus dur la prochaine fois." }
+        { en: "Hope is lovely but slow. Change your password *first*, then sip your tea.", fr: "L'espoir, c'est mignon mais lent. Change ton mot de passe *d'abord*, ensuite tu bois ton thé.", es: "La esperanza es encantadora pero lenta. Cambia tu contraseña *primero*, luego bebe el té.", de: "Hoffnung ist süß, aber langsam. Ändere *zuerst* dein Passwort, dann trink deinen Tee.", it: "La speranza è carina ma lenta. Cambia la password *prima*, poi sorseggia il tè.", da: "Håb er sødt, men langsomt. Skift din adgangskode *først*, og nip så til din te.", bg: "Надеждата е мила, но бавна. Първо смени паролата си, *после* си пий чая." },
+        { en: "Then turn on 2FA so it's much harder next time.", fr: "Active ensuite la 2FA pour que ce soit bien plus dur la prochaine fois.", es: "Después activa la 2FA para que la próxima vez sea mucho más difícil.", de: "Aktiviere danach 2FA, damit es beim nächsten Mal viel schwerer wird.", it: "Poi attiva la 2FA così la prossima volta sarà molto più difficile.", da: "Slå derefter 2FA til, så det bliver meget sværere næste gang.", bg: "После включи 2FA, за да е много по-трудно следващия път." }
       ],
       next: "outro"
     },
     outro: {
       bot: [
-        { en: "Three takeaways, neatly arranged:", fr: "Trois choses à retenir, joliment rangées :" },
-        { en: "🛑 Slow down whenever you feel rushed.", fr: "🛑 Ralentis chaque fois qu'on te presse." },
-        { en: "🔍 Hover links, check addresses, suspect everything.", fr: "🔍 Survole les liens, vérifie les adresses, doute de tout." },
-        { en: "📱 Use a second channel — a call, the real app, an in-person check.", fr: "📱 Utilise un second canal — un appel, la vraie appli, une vérification en vrai." },
-        { en: "You're going to be very hard to fool. Janet finds that delightful. Bye for now! 🐟", fr: "Tu vas devenir vraiment difficile à piéger. Janet trouve ça merveilleux. À très vite ! 🐟" }
+        { en: "Three takeaways, neatly arranged:", fr: "Trois choses à retenir, joliment rangées :", es: "Tres conclusiones, ordenaditas:", de: "Drei Erkenntnisse, hübsch sortiert:", it: "Tre cose da portarsi a casa, ben ordinate:", da: "Tre pointer, pænt opstillet:", bg: "Три извода, спретнато подредени:" },
+        { en: "🛑 Slow down whenever you feel rushed.", fr: "🛑 Ralentis chaque fois qu'on te presse.", es: "🛑 Frena cada vez que sientas prisa.", de: "🛑 Werde langsamer, wann immer du gehetzt wirst.", it: "🛑 Rallenta ogni volta che ti senti messo sotto pressione.", da: "🛑 Sæt farten ned, hver gang du føler dig presset.", bg: "🛑 Забави темпото всеки път, когато усетиш натиск." },
+        { en: "🔍 Hover links, check addresses, suspect everything.", fr: "🔍 Survole les liens, vérifie les adresses, doute de tout.", es: "🔍 Pasa el ratón por los enlaces, comprueba las direcciones, sospecha de todo.", de: "🔍 Über Links schweben, Adressen prüfen, alles in Frage stellen.", it: "🔍 Passa il mouse sui link, controlla gli indirizzi, sospetta di tutto.", da: "🔍 Hold musen over links, tjek adresser, vær mistænksom over for alt.", bg: "🔍 Минавай с курсора над линковете, проверявай адресите, съмнявай се във всичко." },
+        { en: "📱 Use a second channel — a call, the real app, an in-person check.", fr: "📱 Utilise un second canal — un appel, la vraie appli, une vérification en vrai.", es: "📱 Usa un segundo canal — una llamada, la app de verdad, una comprobación en persona.", de: "📱 Nutze einen zweiten Kanal — einen Anruf, die echte App, eine persönliche Nachfrage.", it: "📱 Usa un secondo canale — una chiamata, l'app vera, una verifica di persona.", da: "📱 Brug en anden kanal — et opkald, den rigtige app, et tjek personligt.", bg: "📱 Използвай втори канал — обаждане, истинското приложение, проверка на живо." },
+        { en: "You're going to be very hard to fool. Janet finds that delightful. Bye for now! 🐟", fr: "Tu vas devenir vraiment difficile à piéger. Janet trouve ça merveilleux. À très vite ! 🐟", es: "Vas a ser muy difícil de engañar. A Janet le parece delicioso. ¡Hasta pronto! 🐟", de: "Du wirst sehr schwer zu täuschen sein. Janet findet das entzückend. Bis bald! 🐟", it: "Sarai davvero difficile da ingannare. Janet lo trova delizioso. A presto! 🐟", da: "Du bliver meget svær at narre. Janet synes, det er dejligt. Vi ses! 🐟", bg: "Ще си много труден за заблуждаване. Janet намира това за прекрасно. До скоро! 🐟" }
       ],
       end: true
     }
