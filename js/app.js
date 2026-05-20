@@ -52,9 +52,8 @@
   // ---------- Rendering ----------
   function render() {
     document.documentElement.lang = lang;
-    document.querySelectorAll(".lang-switch button").forEach((btn) => {
-      btn.classList.toggle("active", btn.dataset.lang === lang);
-    });
+    const langSel = document.getElementById("lang-select");
+    if (langSel && langSel.value !== lang) langSel.value = lang;
     document.getElementById("karma-count").textContent = state.karma || 0;
 
     const route = parseRoute();
@@ -423,12 +422,10 @@
   }
 
   // ---------- Topbar wiring ----------
-  document.querySelectorAll(".lang-switch button").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      lang = btn.dataset.lang;
-      localStorage.setItem(LANG_KEY, lang);
-      render();
-    });
+  document.getElementById("lang-select").addEventListener("change", (e) => {
+    lang = e.target.value;
+    localStorage.setItem(LANG_KEY, lang);
+    render();
   });
   document.getElementById("reset-btn").addEventListener("click", () => {
     if (confirm(t("reset.confirm"))) {

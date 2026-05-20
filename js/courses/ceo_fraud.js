@@ -4,10 +4,23 @@ window.JANET_COURSES.ceo_fraud = {
   emoji: "🎭",
   duration: 5,
   karma: 50,
-  title: { en: "Impersonation scams", fr: "Arnaques par usurpation" },
+  title: {
+    en: "Impersonation scams",
+    fr: "Arnaques par usurpation",
+    es: "Estafas por suplantación",
+    de: "Identitätsbetrug",
+    it: "Truffe d'impersonificazione",
+    da: "Identitetstyveri-svindel",
+    bg: "Измами с фалшива самоличност"
+  },
   description: {
     en: "When \"your boss\" — or your husband, wife, or kid — asks for an urgent favor.",
-    fr: "Quand \"ton patron\" — ou ton mari, ta femme, ton enfant — te demande un service urgent."
+    fr: "Quand \"ton patron\" — ou ton mari, ta femme, ton enfant — te demande un service urgent.",
+    es: "Cuando \"tu jefe\" — o tu marido, tu mujer, tu hijo — te pide un favor urgente.",
+    de: "Wenn \"dein Chef\" — oder dein Mann, deine Frau, dein Kind — um einen dringenden Gefallen bittet.",
+    it: "Quando \"il tuo capo\" — o tuo marito, tua moglie, tuo figlio — chiede un favore urgente.",
+    da: "Når \"din chef\" — eller din mand, kone eller barn — beder om en hastetjeneste.",
+    bg: "Когато \"шефът ти\" — или съпругът, съпругата или детето ти — иска спешна услуга."
   },
   startNode: "start",
   nodes: {

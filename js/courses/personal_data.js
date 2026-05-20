@@ -4,10 +4,23 @@ window.JANET_COURSES.personal_data = {
   emoji: "🧬",
   duration: 5,
   karma: 50,
-  title: { en: "Personal data", fr: "Données personnelles" },
+  title: {
+    en: "Personal data",
+    fr: "Données personnelles",
+    es: "Datos personales",
+    de: "Persönliche Daten",
+    it: "Dati personali",
+    da: "Personlige data",
+    bg: "Лични данни"
+  },
   description: {
     en: "Knowing what you share — and what's quietly leaking out of you.",
-    fr: "Savoir ce que tu partages — et ce qui fuit en douce."
+    fr: "Savoir ce que tu partages — et ce qui fuit en douce.",
+    es: "Saber qué compartes — y qué se está filtrando de ti sin darte cuenta.",
+    de: "Wissen, was du teilst — und was unbemerkt aus dir herausläuft.",
+    it: "Sapere cosa condividi — e cosa sta uscendo da te in silenzio.",
+    da: "At vide, hvad du deler — og hvad der stille siver ud af dig.",
+    bg: "Да знаеш какво споделяш — и какво тихо изтича от теб."
   },
   startNode: "start",
   nodes: {

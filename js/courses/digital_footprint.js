@@ -4,10 +4,23 @@ window.JANET_COURSES.digital_footprint = {
   emoji: "👣",
   duration: 4,
   karma: 40,
-  title: { en: "Digital footprint", fr: "Empreinte numérique" },
+  title: {
+    en: "Digital footprint",
+    fr: "Empreinte numérique",
+    es: "Huella digital",
+    de: "Digitaler Fußabdruck",
+    it: "Impronta digitale",
+    da: "Digitalt fodaftryk",
+    bg: "Дигитален отпечатък"
+  },
   description: {
     en: "The trail you leave online — and how to make it smaller.",
-    fr: "Les traces que tu laisses en ligne — et comment les réduire."
+    fr: "Les traces que tu laisses en ligne — et comment les réduire.",
+    es: "El rastro que dejas en línea — y cómo reducirlo.",
+    de: "Die Spur, die du online hinterlässt — und wie du sie kleiner machst.",
+    it: "La traccia che lasci online — e come renderla più piccola.",
+    da: "Det spor, du efterlader online — og hvordan du gør det mindre.",
+    bg: "Следата, която оставяш онлайн — и как да я направиш по-малка."
   },
   startNode: "start",
   nodes: {

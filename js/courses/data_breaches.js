@@ -4,10 +4,23 @@ window.JANET_COURSES.data_breaches = {
   emoji: "🪣",
   duration: 3,
   karma: 30,
-  title: { en: "Data breaches", fr: "Fuites de données" },
+  title: {
+    en: "Data breaches",
+    fr: "Fuites de données",
+    es: "Filtraciones de datos",
+    de: "Datenpannen",
+    it: "Violazioni di dati",
+    da: "Datalæk",
+    bg: "Изтичания на данни"
+  },
   description: {
     en: "What happens when companies lose your data — and what to do.",
-    fr: "Ce qui se passe quand des entreprises perdent tes données — et que faire."
+    fr: "Ce qui se passe quand des entreprises perdent tes données — et que faire.",
+    es: "Qué pasa cuando las empresas pierden tus datos — y qué hacer.",
+    de: "Was passiert, wenn Unternehmen deine Daten verlieren — und was zu tun ist.",
+    it: "Cosa succede quando le aziende perdono i tuoi dati — e cosa fare.",
+    da: "Hvad sker der, når virksomheder mister dine data — og hvad gør man.",
+    bg: "Какво се случва, когато компаниите загубят данните ти — и какво да правиш."
   },
   startNode: "start",
   nodes: {

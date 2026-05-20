@@ -4,10 +4,23 @@ window.JANET_COURSES.tailgating = {
   emoji: "🚪",
   duration: 4,
   karma: 40,
-  title: { en: "Tailgating", fr: "Tailgating" },
+  title: {
+    en: "Tailgating",
+    fr: "Tailgating",
+    es: "Tailgating",
+    de: "Tailgating",
+    it: "Tailgating",
+    da: "Tailgating",
+    bg: "Tailgating"
+  },
   description: {
     en: "The hack that doesn't need a computer at all.",
-    fr: "L'attaque qui n'a même pas besoin d'un ordinateur."
+    fr: "L'attaque qui n'a même pas besoin d'un ordinateur.",
+    es: "El ataque que no necesita ningún ordenador.",
+    de: "Der Hack, der gar keinen Computer braucht.",
+    it: "L'attacco che non ha bisogno di alcun computer.",
+    da: "Det hack, der slet ikke kræver en computer.",
+    bg: "Хакът, който изобщо не се нуждае от компютър."
   },
   startNode: "start",
   nodes: {

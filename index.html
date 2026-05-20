@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -26,10 +26,15 @@
           <span aria-hidden="true">✨</span>
           <span id="karma-count">0</span>
         </div>
-        <div class="lang-switch" role="group" aria-label="Language">
-          <button data-lang="en" type="button">EN</button>
-          <button data-lang="fr" type="button">FR</button>
-        </div>
+        <select id="lang-select" class="lang-select" aria-label="Language">
+          <option value="en">EN — English</option>
+          <option value="fr">FR — Français</option>
+          <option value="es">ES — Español</option>
+          <option value="de">DE — Deutsch</option>
+          <option value="it">IT — Italiano</option>
+          <option value="da">DA — Dansk</option>
+          <option value="bg">BG — Български</option>
+        </select>
         <button id="reset-btn" type="button" class="reset" title="Reset progress">⟲</button>
       </div>
     </header>

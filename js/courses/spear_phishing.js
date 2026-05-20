@@ -4,10 +4,23 @@ window.JANET_COURSES.spear_phishing = {
   emoji: "🎯",
   duration: 5,
   karma: 60,
-  title: { en: "Spear phishing", fr: "Phishing ciblé" },
+  title: {
+    en: "Spear phishing",
+    fr: "Phishing ciblé",
+    es: "Phishing dirigido",
+    de: "Spear-Phishing",
+    it: "Spear phishing",
+    da: "Spear phishing",
+    bg: "Целево phishing"
+  },
   description: {
     en: "When the scam is written *just for you*.",
-    fr: "Quand l'arnaque est écrite *rien que pour toi*."
+    fr: "Quand l'arnaque est écrite *rien que pour toi*.",
+    es: "Cuando la estafa está escrita *solo para ti*.",
+    de: "Wenn der Betrug *eigens für dich* geschrieben ist.",
+    it: "Quando la truffa è scritta *apposta per te*.",
+    da: "Når svindlen er skrevet *kun til dig*.",
+    bg: "Когато измамата е написана *само за теб*."
   },
   startNode: "start",
   nodes: {

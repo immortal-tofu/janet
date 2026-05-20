@@ -4,10 +4,23 @@ window.JANET_COURSES.software_vulnerabilities = {
   emoji: "🩹",
   duration: 4,
   karma: 40,
-  title: { en: "Software updates", fr: "Mises à jour" },
+  title: {
+    en: "Software updates",
+    fr: "Mises à jour",
+    es: "Actualizaciones de software",
+    de: "Software-Updates",
+    it: "Aggiornamenti software",
+    da: "Softwareopdateringer",
+    bg: "Софтуерни актуализации"
+  },
   description: {
     en: "Why \"Update later\" is the most dangerous button on your device.",
-    fr: "Pourquoi \"Plus tard\" est le bouton le plus dangereux de ton appareil."
+    fr: "Pourquoi \"Plus tard\" est le bouton le plus dangereux de ton appareil.",
+    es: "Por qué \"Actualizar más tarde\" es el botón más peligroso de tu dispositivo.",
+    de: "Warum \"Später aktualisieren\" der gefährlichste Knopf auf deinem Gerät ist.",
+    it: "Perché \"Aggiorna più tardi\" è il pulsante più pericoloso del tuo dispositivo.",
+    da: "Hvorfor \"Opdater senere\" er den farligste knap på din enhed.",
+    bg: "Защо \"Актуализирай по-късно\" е най-опасният бутон на устройството ти."
   },
   startNode: "start",
   nodes: {

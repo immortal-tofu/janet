@@ -15,7 +15,7 @@
   --radius-lg: 26px;
   --font: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   --font-display: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-mono: "Space Mono", "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 * {
@@ -116,26 +116,28 @@ a {
   font-variant-numeric: tabular-nums;
 }
 
-.lang-switch {
-  display: inline-flex;
-  background: white;
+.lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: white
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'><path fill='none' stroke='%236a5a64' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round' d='M1 1.5l5 5 5-5'/></svg>")
+    no-repeat right 10px center / 10px 7px;
+  border: none;
   border-radius: 999px;
-  padding: 3px;
-  box-shadow: var(--shadow);
-}
-
-.lang-switch button {
-  padding: 4px 10px;
+  padding: 6px 28px 6px 12px;
+  font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
   color: var(--ink-soft);
-  border-radius: 999px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  max-width: 130px;
 }
 
-.lang-switch button.active {
-  background: var(--peach);
-  color: white;
+.lang-select:focus {
+  outline: 2px solid var(--peach);
+  outline-offset: 1px;
 }
 
 .reset {

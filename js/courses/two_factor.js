@@ -4,10 +4,23 @@ window.JANET_COURSES.two_factor = {
   emoji: "✌️",
   duration: 4,
   karma: 50,
-  title: { en: "Two-factor auth", fr: "Double authentification" },
+  title: {
+    en: "Two-factor auth",
+    fr: "Double authentification",
+    es: "Autenticación de dos factores",
+    de: "Zwei-Faktor-Authentifizierung",
+    it: "Autenticazione a due fattori",
+    da: "Tofaktorgodkendelse",
+    bg: "Двуфакторно удостоверяване"
+  },
   description: {
     en: "The single most powerful upgrade to your online safety.",
-    fr: "L'amélioration la plus puissante pour ta sécurité en ligne."
+    fr: "L'amélioration la plus puissante pour ta sécurité en ligne.",
+    es: "La mejora más potente para tu seguridad en línea.",
+    de: "Das wirkungsvollste Upgrade für deine Online-Sicherheit.",
+    it: "Il singolo miglioramento più potente per la tua sicurezza online.",
+    da: "Den enkelt mest effektive opgradering af din onlinesikkerhed.",
+    bg: "Най-мощното подобрение за твоята онлайн сигурност."
   },
   startNode: "start",
   nodes: {

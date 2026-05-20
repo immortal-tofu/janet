@@ -4,10 +4,23 @@ window.JANET_COURSES.mobile_phone = {
   emoji: "📱",
   duration: 5,
   karma: 50,
-  title: { en: "Your phone", fr: "Ton téléphone" },
+  title: {
+    en: "Your phone",
+    fr: "Ton téléphone",
+    es: "Tu teléfono",
+    de: "Dein Telefon",
+    it: "Il tuo telefono",
+    da: "Din telefon",
+    bg: "Твоят телефон"
+  },
   description: {
     en: "Your most personal computer — and your biggest target.",
-    fr: "Ton ordinateur le plus intime — et la plus grosse cible."
+    fr: "Ton ordinateur le plus intime — et la plus grosse cible.",
+    es: "Tu ordenador más personal — y tu mayor blanco.",
+    de: "Dein persönlichster Computer — und dein größtes Ziel.",
+    it: "Il tuo computer più intimo — e il tuo bersaglio più grande.",
+    da: "Din mest personlige computer — og dit største mål.",
+    bg: "Най-личният ти компютър — и най-голямата ти мишена."
   },
   startNode: "start",
   nodes: {

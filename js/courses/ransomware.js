@@ -4,10 +4,23 @@ window.JANET_COURSES.ransomware = {
   emoji: "💰",
   duration: 5,
   karma: 50,
-  title: { en: "Ransomware", fr: "Rançongiciels" },
+  title: {
+    en: "Ransomware",
+    fr: "Rançongiciels",
+    es: "Ransomware",
+    de: "Erpressersoftware",
+    it: "Ransomware",
+    da: "Ransomware",
+    bg: "Ransomware"
+  },
   description: {
     en: "When all your files turn into a hostage situation.",
-    fr: "Quand tous tes fichiers deviennent des otages."
+    fr: "Quand tous tes fichiers deviennent des otages.",
+    es: "Cuando todos tus archivos se convierten en una toma de rehenes.",
+    de: "Wenn all deine Dateien zu Geiseln werden.",
+    it: "Quando tutti i tuoi file diventano ostaggi.",
+    da: "Når alle dine filer bliver taget som gidsler.",
+    bg: "Когато всичките ти файлове стават заложници."
   },
   startNode: "start",
   nodes: {

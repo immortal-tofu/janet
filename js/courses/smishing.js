@@ -4,10 +4,23 @@ window.JANET_COURSES.smishing = {
   emoji: "💬",
   duration: 4,
   karma: 40,
-  title: { en: "Smishing (SMS scams)", fr: "Smishing (arnaques par SMS)" },
+  title: {
+    en: "Smishing (SMS scams)",
+    fr: "Smishing (arnaques par SMS)",
+    es: "Smishing (estafas por SMS)",
+    de: "Smishing (SMS-Betrug)",
+    it: "Smishing (truffe via SMS)",
+    da: "Smishing (SMS-svindel)",
+    bg: "Smishing (SMS измами)"
+  },
   description: {
     en: "Phishing's smaller, faster cousin — delivered to your pocket.",
-    fr: "Le petit cousin rapide du phishing — livré dans ta poche."
+    fr: "Le petit cousin rapide du phishing — livré dans ta poche.",
+    es: "El primo más pequeño y rápido del phishing — entregado a tu bolsillo.",
+    de: "Der kleinere, schnellere Cousin des Phishings — direkt in deine Tasche geliefert.",
+    it: "Il cugino più piccolo e veloce del phishing — consegnato in tasca tua.",
+    da: "Phishingens mindre, hurtigere fætter — leveret direkte i din lomme.",
+    bg: "По-малкият, по-бърз братовчед на phishing — доставен в джоба ти."
   },
   startNode: "start",
   nodes: {

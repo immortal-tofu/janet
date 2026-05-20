@@ -4,10 +4,23 @@ window.JANET_COURSES.linkedin_footprint = {
   emoji: "💼",
   duration: 4,
   karma: 40,
-  title: { en: "Your LinkedIn trail", fr: "Ton empreinte LinkedIn" },
+  title: {
+    en: "Your LinkedIn trail",
+    fr: "Ton empreinte LinkedIn",
+    es: "Tu rastro en LinkedIn",
+    de: "Deine LinkedIn-Spur",
+    it: "La tua traccia su LinkedIn",
+    da: "Dit LinkedIn-spor",
+    bg: "Твоята LinkedIn следа"
+  },
   description: {
     en: "Why your CV is a scammer's favorite reading material.",
-    fr: "Pourquoi ton CV est la lecture préférée des arnaqueurs."
+    fr: "Pourquoi ton CV est la lecture préférée des arnaqueurs.",
+    es: "Por qué tu CV es la lectura favorita de los estafadores.",
+    de: "Warum dein Lebenslauf die Lieblingslektüre von Betrügern ist.",
+    it: "Perché il tuo CV è la lettura preferita dei truffatori.",
+    da: "Hvorfor dit CV er svindleres yndlingslæsning.",
+    bg: "Защо твоето CV е любимото четиво на измамниците."
   },
   startNode: "start",
   nodes: {

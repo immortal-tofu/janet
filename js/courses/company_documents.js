@@ -4,10 +4,23 @@ window.JANET_COURSES.company_documents = {
   emoji: "📜",
   duration: 3,
   karma: 30,
-  title: { en: "Security ground rules", fr: "Les règles de base" },
+  title: {
+    en: "Security ground rules",
+    fr: "Les règles de base",
+    es: "Reglas básicas de seguridad",
+    de: "Sicherheitsgrundlagen",
+    it: "Regole di base sulla sicurezza",
+    da: "Sikkerhedens grundregler",
+    bg: "Основни правила за сигурност"
+  },
   description: {
     en: "Three habits that quietly keep you safer online — every single day.",
-    fr: "Trois habitudes qui te protègent au quotidien, sans en avoir l'air."
+    fr: "Trois habitudes qui te protègent au quotidien, sans en avoir l'air.",
+    es: "Tres hábitos que te mantienen más seguro en línea, sin que te des cuenta — cada día.",
+    de: "Drei Gewohnheiten, die dich online jeden Tag unauffällig sicherer machen.",
+    it: "Tre abitudini che ti rendono più sicuro online — ogni giorno, senza farti notare.",
+    da: "Tre vaner, der stille og roligt holder dig sikrere online — hver eneste dag.",
+    bg: "Три навика, които тихо те правят по-сигурен онлайн — всеки ден."
   },
   startNode: "start",
   nodes: {

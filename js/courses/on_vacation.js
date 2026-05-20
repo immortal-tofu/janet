@@ -4,10 +4,23 @@ window.JANET_COURSES.on_vacation = {
   emoji: "🏖️",
   duration: 4,
   karma: 40,
-  title: { en: "On vacation", fr: "En vacances" },
+  title: {
+    en: "On vacation",
+    fr: "En vacances",
+    es: "De vacaciones",
+    de: "Im Urlaub",
+    it: "In vacanza",
+    da: "På ferie",
+    bg: "На почивка"
+  },
   description: {
     en: "Staying safe with public Wi-Fi, holiday brain, and shareable photos.",
-    fr: "Rester sûr·e avec le Wi-Fi public, le cerveau-en-vacances, et les photos à partager."
+    fr: "Rester sûr·e avec le Wi-Fi public, le cerveau-en-vacances, et les photos à partager.",
+    es: "Mantenerse a salvo con Wi-Fi público, mente de vacaciones, y fotos para compartir.",
+    de: "Sicher bleiben bei öffentlichem WLAN, Urlaubs-Hirn und teilbaren Fotos.",
+    it: "Restare al sicuro tra Wi-Fi pubblico, cervello da vacanza e foto da condividere.",
+    da: "Sådan bliver du sikker med offentligt Wi-Fi, feriehjerne og delelige billeder.",
+    bg: "Как да си в безопасност с публично Wi-Fi, отпускарски мозък и снимки за споделяне."
   },
   startNode: "start",
   nodes: {

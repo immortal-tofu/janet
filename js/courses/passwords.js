@@ -4,10 +4,23 @@ window.JANET_COURSES.passwords = {
   emoji: "🔑",
   duration: 5,
   karma: 60,
-  title: { en: "Passwords", fr: "Mots de passe" },
+  title: {
+    en: "Passwords",
+    fr: "Mots de passe",
+    es: "Contraseñas",
+    de: "Passwörter",
+    it: "Password",
+    da: "Adgangskoder",
+    bg: "Пароли"
+  },
   description: {
     en: "Why your dog's name isn't doing the job — and what actually works.",
-    fr: "Pourquoi le prénom de ton chien ne suffit pas — et ce qui marche vraiment."
+    fr: "Pourquoi le prénom de ton chien ne suffit pas — et ce qui marche vraiment.",
+    es: "Por qué el nombre de tu perro no basta — y qué funciona de verdad.",
+    de: "Warum der Name deines Hundes nicht reicht — und was wirklich funktioniert.",
+    it: "Perché il nome del tuo cane non basta — e cosa funziona davvero.",
+    da: "Hvorfor din hunds navn ikke gør jobbet — og hvad der faktisk virker.",
+    bg: "Защо името на кучето ти не върши работа — и какво наистина работи."
   },
   startNode: "start",
   nodes: {

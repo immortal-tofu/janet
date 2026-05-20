@@ -4,10 +4,23 @@ window.JANET_COURSES.phishing = {
   emoji: "🎣",
   duration: 6,
   karma: 60,
-  title: { en: "Phishing", fr: "Phishing" },
+  title: {
+    en: "Phishing",
+    fr: "Phishing",
+    es: "Phishing",
+    de: "Phishing",
+    it: "Phishing",
+    da: "Phishing",
+    bg: "Phishing"
+  },
   description: {
     en: "The #1 way humans get hacked. Let's make sure it's not you.",
-    fr: "La méthode n°1 pour pirater des humains. Faisons en sorte que ce ne soit pas toi."
+    fr: "La méthode n°1 pour pirater des humains. Faisons en sorte que ce ne soit pas toi.",
+    es: "La forma n.º 1 en que hackean a los humanos. Asegurémonos de que no seas tú.",
+    de: "Die Hack-Methode Nr. 1. Sorgen wir dafür, dass du nicht darauf reinfällst.",
+    it: "Il modo n.º 1 in cui i pirati colpiscono. Facciamo in modo che non capiti a te.",
+    da: "Den mest udbredte måde at blive hacket på. Vi sørger for, det ikke bliver dig.",
+    bg: "Начин №1, по който хакват хора. Да се погрижим да не си ти."
   },
   startNode: "start",
   nodes: {
