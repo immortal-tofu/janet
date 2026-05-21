@@ -459,8 +459,12 @@
       return '<a href="' + url + '" target="_blank" rel="noopener">' + label + "</a>";
     });
     s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
-    s = s.replace(/(^|[\s(])\*([^*\n]+)\*(?=$|[\s.,!?:;)])/g, "$1<strong>$2</strong>");
-    s = s.replace(/(^|[\s(])_([^_\n]+)_(?=$|[\s.,!?:;)])/g, "$1<em>$2</em>");
+    // *bold* and _italic_ — the asterisk/underscore must sit on a word
+    // boundary so it doesn't false-match inside words. Lookbehind/lookahead
+    // make this tolerant of apostrophes, quotes, dashes, etc. — so things
+    // like  L'*AI slop*  render correctly.
+    s = s.replace(/(?<![A-Za-z0-9])\*([^*\n]+)\*(?![A-Za-z0-9])/g, "<strong>$1</strong>");
+    s = s.replace(/(?<![A-Za-z0-9])_([^_\n]+)_(?![A-Za-z0-9])/g, "<em>$1</em>");
     return s;
   }
 
